@@ -48,7 +48,7 @@ h1, h2 {
   font-weight: lighter; }
 
 h1 {
-  font-size: 56px;
+  font-size: 50px;
   line-height: 1.1; }
 
 h2 {
@@ -194,6 +194,8 @@ Sektioner
 /*
  * Intro
  */
+#intro h1 {
+  font-size: 56px; }
 #intro .button {
   position: relative;
   top: 30px; }
@@ -226,21 +228,26 @@ Sektioner
   margin-top: 110px;
   width: 37.903225806452%; }
 
+#produktserier h1 {
+  margin: 116px 0 53px 0;
+  text-align: center; }
 #produktserier figure {
   margin: 0 0 23px 0; }
 #produktserier .title-br {
   margin: 22px 0 18px 0; }
+#produktserier article {
+  padding-right: 20px; }
 
 /* ==========================================================================
 Footer
 ========================================================================== */
 footer {
-  margin-top: 125px; }
+  margin: 125px 0; }
   footer .logo {
-    margin: 0 auto;
-    display: block;
     float: none; }
     footer .logo img {
+      margin: 0 auto;
+      display: block;
       max-width: 250px;
       width: 100%; }
 
