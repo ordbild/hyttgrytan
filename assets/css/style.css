@@ -150,7 +150,8 @@ Header & meny
     padding: 0; }
   .social-media-icons li {
     margin: 0 10px;
-    display: inline-block; }
+    display: block;
+    float: left; }
   .social-media-icons img {
     height: 18px; }
 
@@ -289,3 +290,5 @@ Helpers
   margin-left: auto !important;
   margin-right: auto !important;
   display: block; }
+
+/*# sourceMappingURL=style.css.map */

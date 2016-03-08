@@ -178,7 +178,8 @@ Header & meny
     }
     li {
         margin: 0 10px;
-        display: inline-block;
+        display: block;
+        float: left;
     }
     img {
         height: 18px;
