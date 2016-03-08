@@ -1,0 +1,1 @@
+!function(i,n,$,o){"use strict";$(n).ready(function(){$(".slider").slick({arrows:!1,slidesToShow:1,dots:!0,infinite:!1})})}(window,document,jQuery);

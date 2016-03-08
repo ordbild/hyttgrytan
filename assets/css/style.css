@@ -1,0 +1,260 @@
+@charset "UTF-8";
+/* ==========================================================================
+   SCSS
+   ========================================================================== */
+/*
+ * Färger
+ */
+/*
+ * Grid
+ */
+/*
+ * Mixins
+ */
+/* ==========================================================================
+Globals
+========================================================================== */
+/*
+ * Element
+ */
+img {
+  max-width: 100%;
+  height: auto; }
+
+section {
+  overflow: hidden;
+  position: relative; }
+
+.button {
+  font-size: 15px; }
+
+.round-button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: table-cell;
+  background: #006539;
+  color: white;
+  line-height: 1;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none; }
+
+/*
+ * Typografi
+ */
+h1, h2 {
+  color: #006539;
+  font-weight: lighter; }
+
+h1 {
+  font-size: 56px;
+  line-height: 1.1; }
+
+h2 {
+  margin: 0;
+  font-size: 35px;
+  line-height: 1; }
+
+p {
+  font-weight: lighter; }
+
+/*
+ * Layout
+ */
+.site-width {
+  margin: 0 auto;
+  display: block;
+  max-width: 1240px;
+  width: 95%; }
+
+.full-height {
+  min-height: 100vh; }
+
+/*
+ * Slider
+ */
+.slider .inner-slide {
+  position: relative; }
+.slider .has-background {
+  width: 100%;
+  left: auto;
+  right: auto; }
+.slider .slide img {
+  z-index: 1; }
+.slider .slick-dots {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -51px;
+  text-align: center; }
+  .slider .slick-dots li {
+    margin: 0 6px;
+    display: inline-block; }
+  .slider .slick-dots button {
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    text-indent: -9999px;
+    color: white;
+    background: white;
+    border: none; }
+  .slider .slick-dots .slick-active button {
+    background: #9f9f9f; }
+
+/* ==========================================================================
+Header & meny
+========================================================================== */
+.site-header {
+  display: inline-block;
+  width: 100%;
+  padding: 18px 0;
+  background: white; }
+  .site-header:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .site-header .logo img {
+    max-width: 180px; }
+
+/*
+ * Logga och social media
+ */
+.logo,
+.social-media-icons {
+  float: left; }
+
+.social-media-icons ul {
+  margin: 0;
+  padding: 0; }
+.social-media-icons li {
+  margin: 0 10px;
+  display: inline-block; }
+.social-media-icons img {
+  height: 18px; }
+
+/*
+ * Menyn
+ */
+.main-menu {
+  float: right; }
+  .main-menu ul {
+    margin: 0;
+    padding: 0; }
+  .main-menu li {
+    display: inline-block; }
+  .main-menu a {
+    padding: 10px 22px;
+    border-radius: 20px;
+    background: white;
+    border: 2px solid #9f9f9f;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black; }
+    .main-menu a.active, .main-menu a:hover {
+      color: white;
+      background: #9f9f9f; }
+  .main-menu img {
+    height: 18px; }
+
+/* ==========================================================================
+Sektioner
+========================================================================== */
+/*
+ * Generellt
+ */
+.has-background {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0; }
+
+.title-br {
+  margin: 24px 0 30px 0;
+  width: 100px;
+  height: 2px;
+  background: #ccc; }
+
+.section-content {
+  width: 45.967741935484%; }
+  .section-content .title {
+    margin: 0; }
+  .section-content p {
+    margin: 0; }
+  .section-content.on-background {
+    color: white; }
+    .section-content.on-background h1, .section-content.on-background p {
+      color: white; }
+
+/*
+ * Intro
+ */
+#intro .button {
+  position: relative;
+  top: 30px; }
+#intro .section-content {
+  margin-top: 160px;
+  width: 37.903225806452%; }
+
+/*
+ * Hantverk
+ */
+#hantverk .section-content {
+  margin: 0 auto;
+  display: block;
+  margin-top: 105px;
+  text-align: center; }
+#hantverk .button {
+  margin: 50px auto 0 auto;
+  display: block;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  background: none;
+  border: 2px solid white; }
+
+#high-tech .section-content {
+  margin-top: 130px;
+  margin-left: 49.596774193548%; }
+
+#historia .section-content {
+  margin-top: 110px;
+  width: 37.903225806452%; }
+
+#produktserier figure {
+  margin: 0 0 23px 0; }
+#produktserier .title-br {
+  margin: 22px 0 18px 0; }
+
+/* ==========================================================================
+Footer
+========================================================================== */
+footer {
+  margin-top: 125px; }
+  footer .logo {
+    margin: 0 auto;
+    display: block;
+    max-width: 250px;
+    float: none; }
+
+/* ==========================================================================
+Grid
+========================================================================== */
+.column-3 {
+  width: 33.333%;
+  float: left; }
+
+.inner-column {
+  padding: 0 1px; }
+
+/* ==========================================================================
+Helpers
+========================================================================== */
+.center-block {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block; }
