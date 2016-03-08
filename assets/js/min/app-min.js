@@ -1,1 +1,1 @@
-!function(i,n,$,o){"use strict";$(n).ready(function(){$(".slider").slick({arrows:!1,slidesToShow:1,dots:!0,infinite:!1})})}(window,document,jQuery);
+!function(e,i,$,s){"use strict";$(i).ready(function(){$(".slider").slick({arrows:!1,slidesToShow:1,dots:!0,infinite:!1});var e=$("header.site-header");$("#intro h1").hitsTop(function(i){i?e.addClass("fixed"):e.removeClass("fixed")})})}(window,document,jQuery);
