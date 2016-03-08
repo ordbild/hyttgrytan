@@ -146,12 +146,12 @@ Header & meny
 .site-header {
     @include clearfix;
     width: 100%;
-    padding: 18px 0;
     position: fixed;
     z-index: 2;
     transition-property: background;
     transition-duration: .2s;
     .logo img {
+        margin: 18px 0;
         max-width: 180px;
         width: 100%;
     }
@@ -162,12 +162,17 @@ Header & meny
 /*
  * Logga och social media
  */
+.brand {
+    @include clearfix;
+    float: left;
+}
 .logo,
 .social-media-icons {
     float: left;
 }
 
 .social-media-icons {
+    margin-top: 31px;
     ul {
         @include reset;
     }
@@ -184,6 +189,7 @@ Header & meny
  * Menyn
  */
 .main-menu {
+    margin-top: 25px;
     float: right;
     ul {
         @include reset;
@@ -192,7 +198,10 @@ Header & meny
         display: inline-block;
     }
     a {
-        padding: 10px 22px;
+        padding: 0 22px;
+        height: 38px;
+        line-height: 38px;
+        display: block;
         border-radius: 20px;
         background: white;
         border: 2px solid $darkGrey;

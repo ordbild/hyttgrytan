@@ -109,7 +109,6 @@ Header & meny
 .site-header {
   display: inline-block;
   width: 100%;
-  padding: 18px 0;
   position: fixed;
   z-index: 2;
   transition-property: background;
@@ -121,6 +120,7 @@ Header & meny
     clear: both;
     visibility: hidden; }
   .site-header .logo img {
+    margin: 18px 0;
     max-width: 180px;
     width: 100%; }
   .site-header.fixed {
@@ -129,23 +129,36 @@ Header & meny
 /*
  * Logga och social media
  */
+.brand {
+  display: inline-block;
+  float: left; }
+  .brand:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
 .logo,
 .social-media-icons {
   float: left; }
 
-.social-media-icons ul {
-  margin: 0;
-  padding: 0; }
-.social-media-icons li {
-  margin: 0 10px;
-  display: inline-block; }
-.social-media-icons img {
-  height: 18px; }
+.social-media-icons {
+  margin-top: 31px; }
+  .social-media-icons ul {
+    margin: 0;
+    padding: 0; }
+  .social-media-icons li {
+    margin: 0 10px;
+    display: inline-block; }
+  .social-media-icons img {
+    height: 18px; }
 
 /*
  * Menyn
  */
 .main-menu {
+  margin-top: 25px;
   float: right; }
   .main-menu ul {
     margin: 0;
@@ -153,7 +166,10 @@ Header & meny
   .main-menu li {
     display: inline-block; }
   .main-menu a {
-    padding: 10px 22px;
+    padding: 0 22px;
+    height: 38px;
+    line-height: 38px;
+    display: block;
     border-radius: 20px;
     background: white;
     border: 2px solid #9f9f9f;
