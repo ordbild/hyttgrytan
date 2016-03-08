@@ -111,6 +111,8 @@ Header & meny
   width: 100%;
   position: fixed;
   z-index: 2;
+  -webkit-transition-property: background;
+  -webkit-transition-duration: .2s;
   transition-property: background;
   transition-duration: .2s; }
   .site-header:after {
@@ -250,9 +252,15 @@ Sektioner
   margin-top: 110px;
   width: 37.903225806452%; }
 
+#produktserier .inner-column:hover h2 {
+  color: #006539; }
+#produktserier .inner-column:hover .title-br {
+  background: #006539; }
 #produktserier h1 {
   margin: 116px 0 53px 0;
   text-align: center; }
+#produktserier h2 {
+  color: #9f9f9f; }
 #produktserier figure {
   margin: 0 0 23px 0; }
 #produktserier .title-br {

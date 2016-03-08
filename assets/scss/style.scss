@@ -148,6 +148,8 @@ Header & meny
     width: 100%;
     position: fixed;
     z-index: 2;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .2s;
     transition-property: background;
     transition-duration: .2s;
     .logo img {
@@ -314,9 +316,20 @@ Sektioner
 }
 
 #produktserier {
+    .inner-column:hover {
+        h2 {
+            color: $green;
+        }
+        .title-br {
+            background: $green;
+        }
+    }
     h1 {
         margin: 116px 0 53px 0;
         text-align: center;
+    }
+    h2 {
+        color: #9f9f9f;
     }
     figure {
         margin: 0 0 23px 0;
