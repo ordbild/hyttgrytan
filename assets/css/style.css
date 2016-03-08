@@ -118,7 +118,8 @@ Header & meny
     clear: both;
     visibility: hidden; }
   .site-header .logo img {
-    max-width: 180px; }
+    max-width: 180px;
+    width: 100%; }
 
 /*
  * Logga och social media
