@@ -239,8 +239,10 @@ footer {
   footer .logo {
     margin: 0 auto;
     display: block;
-    max-width: 250px;
     float: none; }
+    footer .logo img {
+      max-width: 250px;
+      width: 100%; }
 
 /* ==========================================================================
 Grid

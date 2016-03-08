@@ -311,8 +311,11 @@ footer {
     margin-top: 125px;
     .logo {
         @include center-block;
-        max-width: 250px;        
         float: none;
+        img {
+            max-width: 250px;        
+            width: 100%;
+        }
     }
 }
 
