@@ -194,12 +194,15 @@ Header & meny
         display: inline-block;
     }
     a {
-        padding: 0 22px;
+        padding: 0 40px 0 20px;
         height: 38px;
         line-height: 38px;
         display: block;
         border-radius: 20px;
         background: white;
+        background-repeat: no-repeat;
+        background-size: auto 18px;
+        background-position: right 10px center;
         border: 2px solid $darkGrey;
         font-size: 13px;
         text-transform: uppercase;
@@ -211,8 +214,14 @@ Header & meny
             background: $darkGrey;
         }
     }
-    img {
-        height: 18px;
+    .history {
+        background-image: url('../img/icons/icon-flag.svg');
+    }
+    .reseller {
+        background-image: url('../img/icons/icon-marker.svg');
+    }
+    .furniture-series {
+        background-image: url('../img/icons/icon-mobler.svg');
     }
 }
 
