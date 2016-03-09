@@ -205,6 +205,9 @@ Sektioner
 /*
  * Generellt
  */
+.below-fixed-header {
+  padding-top: 150px; }
+
 .has-background {
   background-position: 50% 50%;
   background-size: cover; }
@@ -233,9 +236,8 @@ Sektioner
   background-image: url("../img/start.jpg"); }
   #intro h1 {
     font-size: 56px; }
-  #intro .button {
-    position: relative;
-    top: 30px; }
+  #intro .section-content p {
+    margin-bottom: 30px; }
 
 /*
  * Hantverk
@@ -288,6 +290,28 @@ Sektioner
   margin: 22px 0 18px 0; }
 
 /* ==========================================================================
+Sidor
+========================================================================== */
+/*
+ * Våra möbelserier
+ */
+.overview-category-products {
+  display: inline-block; }
+  .overview-category-products:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .overview-category-products ul {
+    margin: 0;
+    padding: 0; }
+  .overview-category-products li {
+    width: 24.545454545455%;
+    float: left;
+    display: block; }
+
+/* ==========================================================================
 Footer
 ========================================================================== */
 footer {
@@ -309,23 +333,56 @@ Helpers
   display: block; }
 
 @media (min-width: 700px) {
+  /* ==========================================================================
+  Sektioner
+  ========================================================================== */
+  /*
+   * Generellt
+   */
   .section-content {
     width: 48.717948717949%; }
 
+  /*
+   * Intro
+   */
   #intro .section-content {
     margin-top: 160px;
     width: 40.17094017094%; }
 
+  /*
+   * High tech
+   */
   #high-tech .section-content {
     margin-top: 130px;
     margin-left: 52.564102564103%; }
 
+  /*
+   * Historia
+   */
   #historia .section-content {
     margin-top: 110px;
     width: 40.17094017094%; }
 
+  /*
+   * Produktserier
+   */
   #produktserier h1 {
-    margin: 116px 0 53px 0; } }
+    margin: 116px 0 53px 0; }
+
+  /* ==========================================================================
+  Sidor
+  ========================================================================== */
+  /*
+   * Våra möbelserier
+   */
+  .overview-category-description {
+    margin-right: 2.564102564103%;
+    width: 31.623931623932%;
+    float: left; }
+
+  .overview-category-products {
+    width: 65.811965811966%;
+    float: right; } }
 @media (min-width: 930px) {
   .site-header {
     position: fixed; }
