@@ -11,7 +11,7 @@ $darkGrey: #9f9f9f;
 /*
  * Grid
  */
-$site-width: 1240px;
+$site-width: 1170px;
 
 /*
  * Mixins
@@ -102,17 +102,6 @@ p {
  * Slider
  */
 .slider {
-    .inner-slide {
-        position: relative;
-    }
-    .has-background {
-        width: 100%;
-        left: auto;
-        right: auto;
-    }
-    .slide img {
-        z-index: 1;
-    }
     .slick-dots {
         margin: 0;
         padding: 0;
@@ -152,6 +141,10 @@ Header & meny
     -webkit-transition-duration: .2s;
     transition-property: background;
     transition-duration: .2s;
+    .inner {
+        @include center-block;
+        width: 95%;
+    }
     .logo img {
         margin: 18px 0;
         max-width: 180px;
@@ -230,13 +223,9 @@ Sektioner
 /*
  * Generellt
  */
-.section-background {}
-
 .has-background {
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .title-br {
@@ -246,7 +235,7 @@ Sektioner
     background: #ccc;
 }
 .section-content {
-    width: 45.967741935484%;
+    width: 48.717948717949%;
     .title {
         margin: 0;
     }
@@ -266,6 +255,7 @@ Sektioner
  * Intro
  */
 #intro {
+    background-image: url('../img/start.jpg');
     h1 {
         font-size: 56px;
     }
@@ -275,7 +265,7 @@ Sektioner
     }
     .section-content {
         margin-top: 160px;
-        width: 37.903225806452%;
+        width: 40.17094017094%;
     }
 }
 
@@ -288,7 +278,6 @@ Sektioner
         @include center-block;
         margin-top: 105px;
         text-align: center;
-
     }
     .button {
         margin: 50px auto 0 auto;
@@ -299,19 +288,37 @@ Sektioner
         background: none;
         border: 2px solid white;
     }
+
+    /* Slider */
+    .slide-1 {
+        background-image: url('../img/slides/hantverk/hantverk-1.jpg');
+    }
+    .slide-2 {
+        background-image: url('../img/slides/hantverk/hantverk-2.jpg');
+    }
+    .slide-3 {
+        background-image: url('../img/slides/hantverk/hantverk-3.jpg');
+    }
+    .slide-4 {
+        background-image: url('../img/slides/hantverk/hantverk-4.jpg');
+    }
+    .slide-5 {
+        background-image: url('../img/slides/hantverk/hantverk-5.jpg');
+    }
 }
 
 #high-tech {
     .section-content {
         margin-top: 130px;
-        margin-left: 49.596774193548%; 
+        margin-left: 52.564102564103%;
     }
 }
 
 #historia {
+    background-image: url('../img/historia.jpg');
     .section-content {
         margin-top: 110px;
-        width: 37.903225806452%;
+        width: 40.17094017094%;
     }
 }
 

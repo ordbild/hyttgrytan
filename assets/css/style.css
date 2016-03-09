@@ -65,7 +65,7 @@ p {
 .site-width {
   margin: 0 auto;
   display: block;
-  max-width: 1240px;
+  max-width: 1170px;
   width: 95%; }
 
 .full-height {
@@ -74,14 +74,6 @@ p {
 /*
  * Slider
  */
-.slider .inner-slide {
-  position: relative; }
-.slider .has-background {
-  width: 100%;
-  left: auto;
-  right: auto; }
-.slider .slide img {
-  z-index: 1; }
 .slider .slick-dots {
   margin: 0;
   padding: 0;
@@ -121,6 +113,10 @@ Header & meny
     height: 0;
     clear: both;
     visibility: hidden; }
+  .site-header .inner {
+    margin: 0 auto;
+    display: block;
+    width: 95%; }
   .site-header .logo img {
     margin: 18px 0;
     max-width: 180px;
@@ -193,10 +189,8 @@ Sektioner
  * Generellt
  */
 .has-background {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  right: 0; }
+  background-position: 50% 50%;
+  background-size: cover; }
 
 .title-br {
   margin: 24px 0 30px 0;
@@ -205,7 +199,7 @@ Sektioner
   background: #ccc; }
 
 .section-content {
-  width: 45.967741935484%; }
+  width: 48.717948717949%; }
   .section-content .title {
     margin: 0; }
   .section-content p {
@@ -218,39 +212,55 @@ Sektioner
 /*
  * Intro
  */
-#intro h1 {
-  font-size: 56px; }
-#intro .button {
-  position: relative;
-  top: 30px; }
-#intro .section-content {
-  margin-top: 160px;
-  width: 37.903225806452%; }
+#intro {
+  background-image: url("../img/start.jpg"); }
+  #intro h1 {
+    font-size: 56px; }
+  #intro .button {
+    position: relative;
+    top: 30px; }
+  #intro .section-content {
+    margin-top: 160px;
+    width: 40.17094017094%; }
 
 /*
  * Hantverk
  */
-#hantverk .section-content {
-  margin: 0 auto;
-  display: block;
-  margin-top: 105px;
-  text-align: center; }
-#hantverk .button {
-  margin: 50px auto 0 auto;
-  display: block;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  background: none;
-  border: 2px solid white; }
+#hantverk {
+  /* Slider */ }
+  #hantverk .section-content {
+    margin: 0 auto;
+    display: block;
+    margin-top: 105px;
+    text-align: center; }
+  #hantverk .button {
+    margin: 50px auto 0 auto;
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: none;
+    border: 2px solid white; }
+  #hantverk .slide-1 {
+    background-image: url("../img/slides/hantverk/hantverk-1.jpg"); }
+  #hantverk .slide-2 {
+    background-image: url("../img/slides/hantverk/hantverk-2.jpg"); }
+  #hantverk .slide-3 {
+    background-image: url("../img/slides/hantverk/hantverk-3.jpg"); }
+  #hantverk .slide-4 {
+    background-image: url("../img/slides/hantverk/hantverk-4.jpg"); }
+  #hantverk .slide-5 {
+    background-image: url("../img/slides/hantverk/hantverk-5.jpg"); }
 
 #high-tech .section-content {
   margin-top: 130px;
-  margin-left: 49.596774193548%; }
+  margin-left: 52.564102564103%; }
 
-#historia .section-content {
-  margin-top: 110px;
-  width: 37.903225806452%; }
+#historia {
+  background-image: url("../img/historia.jpg"); }
+  #historia .section-content {
+    margin-top: 110px;
+    width: 40.17094017094%; }
 
 #produktserier .inner-column:hover h2 {
   color: #006539; }

@@ -15,58 +15,60 @@
     <body>
 
         <header class="site-header clearfix">
-            <div class="brand">
-                <div class="logo">
-                    <a href="/">
-                        <picture>
-                        <source type="image/svg+xml" srcset="assets/img/grythyttan-logo.svg">
-                        <img src="assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
-                        </picture>
-                    </a>
+            <div class="inner">
+                <div class="brand">
+                    <div class="logo">
+                        <a href="/">
+                            <picture>
+                            <source type="image/svg+xml" srcset="assets/img/grythyttan-logo.svg">
+                            <img src="assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="social-media-icons">
+                        <ul>
+                            <li class="social-media-icon icon-facebook">
+                                <a href="#">
+                                    <img src="assets/img/icons/icon-fb-wo-box.svg" alt="Facebook">
+                                </a> 
+                            </li>
+                            <li class="social-media-icon icon-twitter">
+                                <a href="#">
+                                    <img src="assets/img/icons/icon-twitter.svg" alt="Twitter">
+                                </a>    
+                            </li>
+                            <li class="social-media-icon icon-instagram">
+                                <a href="#">
+                                    <img src="assets/img/icons/icon-instagram.svg" alt="Instagram">
+                                </a> 
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="social-media-icons">
+                
+                <nav class="main-menu">
                     <ul>
-                        <li class="social-media-icon icon-facebook">
-                            <a href="#">
-                                <img src="assets/img/icons/icon-fb-wo-box.svg" alt="Facebook">
-                            </a> 
+                        <li>
+                            <a href="#" class="active">
+                                En svensk historia
+                            </a>
                         </li>
-                        <li class="social-media-icon icon-twitter">
+                        <li>
                             <a href="#">
-                                <img src="assets/img/icons/icon-twitter.svg" alt="Twitter">
-                            </a>    
+                                Återförsäljare
+                            </a>
                         </li>
-                        <li class="social-media-icon icon-instagram">
+                        <li>
                             <a href="#">
-                                <img src="assets/img/icons/icon-instagram.svg" alt="Instagram">
-                            </a> 
+                                Våra möbelserier
+                            </a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
-            
-            <nav class="main-menu">
-                <ul>
-                    <li>
-                        <a href="#" class="active">
-                            En svensk historia
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Återförsäljare
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Våra möbelserier
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </header>
-        <section id="intro" class="full-height">
-            <div class="site-width has-background">
+        <section id="intro" class="full-height has-background">
+            <div class="site-width">
                 <div class="inner">
                     <div class="section-content">
                         <h1 class="title">En svensk historia<br>– nu i Norge</h1>
@@ -78,41 +80,26 @@
                     </div>
                 </div>    
             </div>
-            <img class="section-background" src="assets/img/start.jpg">
         </section> 
         
-        <section id="hantverk" class="full-height">
+        <section id="hantverk">
             <div class="slider">
-                <div class="slide">
-                    <div class="inner-slide">
-                        <div class="has-background">
-                            <div class="site-width">
-                                <div class="inner">
-                                    <div class="section-content on-background">
-                                        <h1 class="title">Känsla och tradition</h1>
-                                        <div class="title-br center-block"></div>
-                                        <p>En enkel, självklar och tidlös form. Varje detalj är viktig och genomarbetad. Det är en ren och solid känsla som vi vill förmedla i allt vi gör. Och föra vidare till alla vi möter.</p>    
-                                        <a class="button round-button" href="#">Läs mer</a>
-                                    </div>
-                                </div>    
-                            </div><!-- site-width --> 
-                        </div><!-- has background -->
-                        <img src="assets/img/slides/hantverk/hantverk-1.jpg">    
-                    </div>
-
+                <div class="slide slide-1 full-height has-background">
+                    <div class="site-width">
+                        <div class="inner">
+                            <div class="section-content on-background">
+                                <h1 class="title">Känsla och tradition</h1>
+                                <div class="title-br center-block"></div>
+                                <p>En enkel, självklar och tidlös form. Varje detalj är viktig och genomarbetad. Det är en ren och solid känsla som vi vill förmedla i allt vi gör. Och föra vidare till alla vi möter.</p>    
+                                <a class="button round-button" href="#">Läs mer</a>
+                            </div>
+                        </div>    
+                    </div><!-- site-width --> 
                 </div>
-                <div class="slide">
-                    <img src="assets/img/slides/hantverk/hantverk-2.jpg">
-                </div>
-                <div class="slide">
-                    <img src="assets/img/slides/hantverk/hantverk-3.jpg">
-                </div>
-                <div class="slide">
-                    <img src="assets/img/slides/hantverk/hantverk-4.jpg">
-                </div>
-                <div class="slide">
-                    <img src="assets/img/slides/hantverk/hantverk-5.jpg">
-                </div>
+                <div class="slide slide-2 full-height has-background"></div>
+                <div class="slide slide-3 full-height has-background"></div>
+                <div class="slide slide-4 full-height has-background"></div>
+                <div class="slide slide-5 full-height has-background"></div>
             </div>       
         </section>
 
@@ -126,8 +113,8 @@
             </div>
         </section>
 
-        <section id="historia">
-            <div class="site-width has-background">
+        <section id="historia" class="full-height has-background">
+            <div class="site-width">
                 <div class="inner">
                     <div class="section-content on-background">
                         <h1 class="title">En stols liv och leverne</h1>
@@ -136,7 +123,6 @@
                     </div>
                 </div>    
             </div>
-            <img src="assets/img/historia.jpg"> 
         </section>
 
         <section id="produktserier" class="site-width">
