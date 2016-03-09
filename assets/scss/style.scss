@@ -135,7 +135,6 @@ Header & meny
 .site-header {
     @include clearfix;
     width: 100%;
-    position: fixed;
     z-index: 2;
     -webkit-transition-property: background;
     -webkit-transition-duration: .2s;
@@ -159,7 +158,7 @@ Header & meny
  */
 .brand {
     @include clearfix;
-    float: left;
+    display: block;
 }
 .logo,
 .social-media-icons {
@@ -185,13 +184,14 @@ Header & meny
  * Menyn
  */
 .main-menu {
-    margin-top: 25px;
-    float: right;
+    display: none;
     ul {
         @include reset;
     }
     li {
-        display: inline-block;
+        margin: 9px auto;
+        max-width: 320px;
+        display: block;
     }
     a {
         padding: 0 40px 0 20px;
@@ -244,7 +244,7 @@ Sektioner
     background: #ccc;
 }
 .section-content {
-    width: 48.717948717949%;
+    width: 100%;
     .title {
         margin: 0;
     }
@@ -273,8 +273,6 @@ Sektioner
         top: 30px;
     }
     .section-content {
-        margin-top: 160px;
-        width: 40.17094017094%;
     }
 }
 
@@ -318,16 +316,12 @@ Sektioner
 
 #high-tech {
     .section-content {
-        margin-top: 130px;
-        margin-left: 52.564102564103%;
     }
 }
 
 #historia {
     background-image: url('../img/historia.jpg');
     .section-content {
-        margin-top: 110px;
-        width: 40.17094017094%;
     }
 }
 

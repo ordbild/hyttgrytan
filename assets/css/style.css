@@ -101,7 +101,6 @@ Header & meny
 .site-header {
   display: inline-block;
   width: 100%;
-  position: fixed;
   z-index: 2;
   -webkit-transition-property: background;
   -webkit-transition-duration: .2s;
@@ -129,7 +128,7 @@ Header & meny
  */
 .brand {
   display: inline-block;
-  float: left; }
+  display: block; }
   .brand:after {
     content: ".";
     display: block;
@@ -157,13 +156,14 @@ Header & meny
  * Menyn
  */
 .main-menu {
-  margin-top: 25px;
-  float: right; }
+  display: none; }
   .main-menu ul {
     margin: 0;
     padding: 0; }
   .main-menu li {
-    display: inline-block; }
+    margin: 9px auto;
+    max-width: 320px;
+    display: block; }
   .main-menu a {
     padding: 0 40px 0 20px;
     height: 38px;
@@ -206,7 +206,7 @@ Sektioner
   background: #ccc; }
 
 .section-content {
-  width: 48.717948717949%; }
+  width: 100%; }
   .section-content .title {
     margin: 0; }
   .section-content p {
@@ -226,9 +226,6 @@ Sektioner
   #intro .button {
     position: relative;
     top: 30px; }
-  #intro .section-content {
-    margin-top: 160px;
-    width: 40.17094017094%; }
 
 /*
  * Hantverk
@@ -259,15 +256,8 @@ Sektioner
   #hantverk .slide-5 {
     background-image: url("../img/slides/hantverk/hantverk-5.jpg"); }
 
-#high-tech .section-content {
-  margin-top: 130px;
-  margin-left: 52.564102564103%; }
-
 #historia {
   background-image: url("../img/historia.jpg"); }
-  #historia .section-content {
-    margin-top: 110px;
-    width: 40.17094017094%; }
 
 #produktserier .inner-column:hover h2 {
   color: #006539; }
@@ -315,5 +305,35 @@ Helpers
   margin-left: auto !important;
   margin-right: auto !important;
   display: block; }
+
+@media (min-width: 700px) {
+  .section-content {
+    width: 48.717948717949%; }
+
+  #intro .section-content {
+    margin-top: 160px;
+    width: 40.17094017094%; }
+
+  #high-tech .section-content {
+    margin-top: 130px;
+    margin-left: 52.564102564103%; }
+
+  #historia .section-content {
+    margin-top: 110px;
+    width: 40.17094017094%; } }
+@media (min-width: 930px) {
+  .site-header {
+    position: fixed; }
+
+  .brand {
+    float: left; }
+
+  .main-menu {
+    display: block;
+    margin-top: 25px;
+    float: right; }
+    .main-menu li {
+      margin: 0;
+      display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */
