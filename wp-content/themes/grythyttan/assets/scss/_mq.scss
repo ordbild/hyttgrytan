@@ -25,7 +25,7 @@
      */
     
     .section-content {
-        width: 48.717948717949%;
+        width: 40.17094017094%;
     }
 
     /*
@@ -34,7 +34,17 @@
     #intro {
         .section-content {
             margin-top: 160px;
-            width: 40.17094017094%;
+        }
+    }
+
+    /*
+     * Hantverk
+     */
+    #hantverk {
+        .slide-1 {
+            .section-content {
+                width: 48.717948717949%;
+            }
         }
     }
 
@@ -45,6 +55,7 @@
         .section-content {
             margin-top: 130px;
             margin-left: 52.564102564103%;
+            width: 48.717948717949%;
         }
     }
 
@@ -54,7 +65,6 @@
     #historia {
         .section-content {
             margin-top: 110px;
-            width: 40.17094017094%;
         }
     }
 
@@ -104,7 +114,7 @@
         margin-top: 25px;
         float: right;
         li {
-            margin: 0;
+            margin: 0 3px;
             display: inline-block;
         }
     }

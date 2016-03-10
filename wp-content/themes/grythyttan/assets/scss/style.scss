@@ -58,12 +58,24 @@ section {
     height: 100px;
     border-radius: 100px;
     display: table-cell;
-    background: $green;
-    color: white;
     line-height: 1;
     vertical-align: middle;
     text-align: center;
     text-decoration: none;
+    &.green-border {
+        border: 2px solid $green;
+    }
+    &.green-fill {
+        background: $green;
+        color: white;
+    }
+    &.white-fill {
+        background: white;
+        color: $green;
+    }
+    &.transparent-fill {
+        color: white;
+    }
 }
 
 /*
@@ -98,6 +110,7 @@ p {
     @include center-block;
     max-width: $site-width;
     width: 95%;
+    position: relative;
 }
 .full-height {
     min-height: 100vh;
@@ -165,11 +178,15 @@ Header & meny
         @include center-block;
         width: 95%;
     }
-    .logo img {
-        margin: 18px 0;
-        max-width: 180px;
-        width: 100%;
+    .logo {
+        margin-right: 20px;
+        img {
+            margin: 18px 0;
+            max-width: 180px;
+            width: 100%;
+        }
     }
+
     &.fixed {
         background: white;
     }
@@ -187,7 +204,7 @@ Header & meny
 }
 
 .social-media-icons {
-    margin-top: 31px;
+    margin-top: 35px;
     ul {
         @include reset;
     }
@@ -218,15 +235,19 @@ Header & meny
         background-position: right 10px center;
     }
     a {
+        /*
         padding: 0 40px 0 20px;
         height: 38px;
         line-height: 38px;
+        */
+        padding: 14px 36px 10px 20px;
         display: block;
         border-radius: 20px;
         border: 2px solid $darkGrey;
         font-size: 13px;
         text-transform: uppercase;
         text-decoration: none;
+        line-height: 1;
         color: black;
         &.active,
         &:hover {
@@ -296,6 +317,16 @@ Sektioner
             margin-bottom: 30px;
         }
     }
+    .floating-button {
+        position: absolute;
+        top: 50vh;
+        margin-top: -50px;
+        width: 100%;
+        .button-wrap {
+            position: absolute;
+            right: 0;
+        }
+    }
 }
 
 /*
@@ -304,9 +335,7 @@ Sektioner
 
 #hantverk {
     .section-content {
-        @include center-block;
         margin-top: 105px;
-        text-align: center;
     }
     .button {
         margin: 50px auto 0 auto;
@@ -321,6 +350,11 @@ Sektioner
     /* Slider */
     .slide-1 {
         background-image: url('../img/slides/hantverk/hantverk-1.jpg');
+        .section-content {
+            @include center-block;
+            margin-top: 105px;
+            text-align: center;
+        }
     }
     .slide-2 {
         background-image: url('../img/slides/hantverk/hantverk-2.jpg');

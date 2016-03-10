@@ -6,11 +6,20 @@
                     <h1 class="title">En svensk historia<br>– nu i Norge</h1>
                     <div class="title-br"></div>
                     <p>Våra sköngungande hantverk har varit en självklar del av den svenska sommaren i över åttio år – så nu tycker vi de är redo för Norge.</p>
-                    <a class="button round-button" href="#">
-                        Upptäck<br>mer<br>&#9663;
+                    <a class="button round-button green-fill" href="#">
+                        Upptäck<br>mer<br>
                     </a>
                 </div>
             </div>    
+        </div>
+        <div class="floating-button">
+            <div class="site-width">
+                <div class="button-wrap">
+                    <a class="button round-button border green-border white-fill" href="<?php echo home_url();?>/mobelserier">
+                    Våra<br>möbler
+                    </a>
+                </div>
+            </div>
         </div>
     </section> 
     
@@ -23,7 +32,7 @@
                             <h1 class="title">Känsla och tradition</h1>
                             <div class="title-br center-block"></div>
                             <p>En enkel, självklar och tidlös form. Varje detalj är viktig och genomarbetad. Det är en ren och solid känsla som vi vill förmedla i allt vi gör. Och föra vidare till alla vi möter.</p>    
-                            <a class="button round-button" href="#">Läs mer</a>
+                            <a class="button round-button white-border transparent-fill" href="#">Läs mer</a>
                         </div>
                     </div>    
                 </div><!-- site-width --> 
@@ -33,7 +42,7 @@
                     <div class="inner">
                         <div class="section-content on-background">
                             <h1 class="title">Lorem ipsum</h1>
-                            <div class="title-br center-block"></div>
+                            <div class="title-br"></div>
                             <p>Varje möbel är ett resultat av gediget hantverksarbete. Våra smeder arbetar med största noggrannhet och precision och ser med varsam hand till att Grythyttan Stålmöblers arv och historia lever vidare. Möblerna tillverkas av fjäderstål av högsta kvalitet.</p>
                         </div>
                     </div>
@@ -44,7 +53,7 @@
                     <div class="inner">
                         <div class="section-content on-background">
                             <h1 class="title">Lorem ipsum</h1>
-                            <div class="title-br center-block"></div>
+                            <div class="title-br"></div>
                             <p>Hemligheten bakom stolarnas sköngung sitter i stativet som tillverkas på plats i fabriken i Grythyttan. En process som inte kan automatiseras utan behöver känsla och erfarenhet för att bli perfekt.</p>
                         </div>
                     </div>
@@ -55,7 +64,7 @@
                     <div class="inner">
                         <div class="section-content on-background">
                             <h1 class="title">Lorem ipsum</h1>
-                            <div class="title-br center-block"></div>
+                            <div class="title-br"></div>
                             <p>Precis som stålet väljs virket till sitts och ryggstöd omsorgsfullt ut och behandlas för ett långt liv. De monteras sedan för hand och paketeras individuellt. Det handlar om en tradition vi vill föra vidare i våra möbler. En känsla av Grythyttan och oss som lever här.</p>
                         </div>
                     </div>
@@ -66,7 +75,7 @@
                     <div class="inner">
                         <div class="section-content on-background">
                             <h1 class="title">Lorem ipsum</h1>
-                            <div class="title-br center-block"></div>
+                            <div class="title-br"></div>
                             <p>Det är därför vi bara producerar ett visst antal möbler varje år. Det är det som gör oss till Grythyttan Stålmöbler.</p>
                         </div>
                     </div>
