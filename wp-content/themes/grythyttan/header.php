@@ -51,22 +51,23 @@
                 <nav class="main-menu">
                     <ul>
                         <li class="main-menu-item history">
-                            <a href="/" class="active">
+                            <a href="/" class="active button">
                                 En svensk historia
                             </a>
                         </li>
                         <li class="main-menu-item furniture-series">
-                            <a href="<?php echo home_url();?>/mobelserier">
+                            <a href="<?php echo home_url();?>/vara-mobler" class="button">
                                 Våra möbler
                             </a>
                         </li>
                         <li class="main-menu-item reseller">
-                            <a href="http://www.grythyttan.net/hitta-butik/">
+                            <a href="http://www.grythyttan.net/hitta-butik/" class="button">
                                 Återförsäljare
                             </a>
                         </li>
                     </ul>
                 </nav>
             </div>
+            <div class="header-border"></div>
         </header>
 

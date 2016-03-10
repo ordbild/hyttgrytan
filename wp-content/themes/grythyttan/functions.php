@@ -19,6 +19,6 @@ require 'includes/filters.php';
 
 require 'includes/actions.php';
 
-Timber::add_route('mobelserier', function() {
-    Timber::load_template('mobelserier.php');
+Timber::add_route('vara-mobler', function() {
+    Timber::load_template('vara-mobler.php');
 });

@@ -51,9 +51,18 @@ section {
     position: relative;
 }
 .button {
+    padding: 13px 20px 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    border: 2px solid $darkGrey;
     font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    color: black;
+    transition: all .2s;
 }
 .round-button {
+    font-size: 15px;
     width: 90px;
     height: 90px;
     border-radius: 100px;
@@ -63,32 +72,33 @@ section {
     text-align: center;
     text-decoration: none;
     transition: all .2s;
-    &.green-border {
-        border: 2px solid $green;
-    }
-    &.green-fill {
-        background: $green;
-        color: white;
-    }
-    &.white-fill {
-        background: white;
-        color: $green;
-    }
-    &.white-border {
-        border: 2px solid white;
-    }
-    &.transparent-fill {
-        &.white-border {
-            color: white;
-        }
-        &.green-border {
-            color: $green;
-        }
-    }
+    
     &:hover {
         background: $green;
         color: white !important;
         border: 2px solid $green;
+    }
+}
+.green-border {
+    border: 2px solid $green;
+}
+.green-fill {
+    background: $green;
+    color: white;
+}
+.white-fill {
+    background: white;
+    color: $green;
+}
+.white-border {
+    border: 2px solid white;
+}
+.transparent-fill {
+    &.white-border {
+        color: white;
+    }
+    &.green-border {
+        color: $green;
     }
 }
 
@@ -203,9 +213,20 @@ Header & meny
             width: 100%;
         }
     }
-
+    .header-border {
+        display: none;
+        position: relative;
+        bottom: -1px;
+        width: 100%;
+        height: 1px;
+        background: black;
+        opacity: .1;
+    }
     &.fixed {
         background: white;
+        .header-border {
+            display: block;
+        }
     }
 }
 /*
@@ -254,14 +275,8 @@ Header & meny
     a {
         padding: 14px 36px 10px 20px;
         display: block;
-        border-radius: 20px;
-        border: 2px solid $darkGrey;
         font-size: 13px;
         text-transform: uppercase;
-        text-decoration: none;
-        line-height: 1;
-        color: black;
-        transition: all .2s;
         &.active,
         &:hover {
             color: white;
@@ -352,7 +367,7 @@ Sektioner
     .section-content {
         margin-top: 105px;
     }
-    .button {
+    .round-button {
         margin: 50px auto 0 auto;
         display: block;
         width: 90px;
@@ -388,7 +403,7 @@ Sektioner
         width: 50%;
         float: left;
     }
-    .button {
+    .round-button {
         position: relative;
         top: 30px;
     }
@@ -405,17 +420,28 @@ Sektioner
         h2 {
             color: $green;
         }
+        p {
+            color: black;
+        }
         .title-br {
             background: $green;
         }
         .mouse-over-image {
             opacity: 1;
         }
+        .button {
+            background: $green;
+            color: white;
+            border: 2px solid $green;
+        }
     }
     h1 {
         text-align: center;
     }
     h2 {
+        color: white;
+    }
+    p {
         color: white;
     }
     figure {
@@ -477,12 +503,14 @@ footer {
     margin: 0 0 20px 0;
     width: 100vw;
     height: 80vh;
+    min-height: 400px;
     position: relative;
     top: 130px;
     background-image: url('../img/made.jpg');
     display: table-cell;
     vertical-align: middle;
     .logo {
+        margin-top: -200px;
         float: none;
         font-size: 18px;
         text-align: center;

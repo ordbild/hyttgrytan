@@ -26,9 +26,18 @@ section {
   position: relative; }
 
 .button {
-  font-size: 15px; }
+  padding: 13px 20px 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  border: 2px solid #9f9f9f;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1;
+  color: black;
+  transition: all .2s; }
 
 .round-button {
+  font-size: 15px;
   width: 90px;
   height: 90px;
   border-radius: 100px;
@@ -38,24 +47,29 @@ section {
   text-align: center;
   text-decoration: none;
   transition: all .2s; }
-  .round-button.green-border {
-    border: 2px solid #006539; }
-  .round-button.green-fill {
-    background: #006539;
-    color: white; }
-  .round-button.white-fill {
-    background: white;
-    color: #006539; }
-  .round-button.white-border {
-    border: 2px solid white; }
-  .round-button.transparent-fill.white-border {
-    color: white; }
-  .round-button.transparent-fill.green-border {
-    color: #006539; }
   .round-button:hover {
     background: #006539;
     color: white !important;
     border: 2px solid #006539; }
+
+.green-border {
+  border: 2px solid #006539; }
+
+.green-fill {
+  background: #006539;
+  color: white; }
+
+.white-fill {
+  background: white;
+  color: #006539; }
+
+.white-border {
+  border: 2px solid white; }
+
+.transparent-fill.white-border {
+  color: white; }
+.transparent-fill.green-border {
+  color: #006539; }
 
 /*
  * Typografi
@@ -159,8 +173,18 @@ Header & meny
       margin: 18px 0;
       max-width: 180px;
       width: 100%; }
+  .site-header .header-border {
+    display: none;
+    position: relative;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background: black;
+    opacity: .1; }
   .site-header.fixed {
     background: white; }
+    .site-header.fixed .header-border {
+      display: block; }
 
 /*
  * Logga och social media
@@ -209,14 +233,8 @@ Header & meny
   .main-menu a {
     padding: 14px 36px 10px 20px;
     display: block;
-    border-radius: 20px;
-    border: 2px solid #9f9f9f;
     font-size: 13px;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 1;
-    color: black;
-    transition: all .2s; }
+    text-transform: uppercase; }
     .main-menu a.active, .main-menu a:hover {
       color: white;
       background: #9f9f9f; }
@@ -279,7 +297,7 @@ Sektioner
   /* Slider */ }
   #hantverk .section-content {
     margin-top: 105px; }
-  #hantverk .button {
+  #hantverk .round-button {
     margin: 50px auto 0 auto;
     display: block;
     width: 90px;
@@ -304,7 +322,7 @@ Sektioner
 #high-tech .section-image {
   width: 50%;
   float: left; }
-#high-tech .button {
+#high-tech .round-button {
   position: relative;
   top: 30px; }
 
@@ -313,13 +331,21 @@ Sektioner
 
 #produktserier .inner-column:hover h2 {
   color: #006539; }
+#produktserier .inner-column:hover p {
+  color: black; }
 #produktserier .inner-column:hover .title-br {
   background: #006539; }
 #produktserier .inner-column:hover .mouse-over-image {
   opacity: 1; }
+#produktserier .inner-column:hover .button {
+  background: #006539;
+  color: white;
+  border: 2px solid #006539; }
 #produktserier h1 {
   text-align: center; }
 #produktserier h2 {
+  color: white; }
+#produktserier p {
   color: white; }
 #produktserier figure {
   margin: 0;
@@ -370,12 +396,14 @@ footer {
   margin: 0 0 20px 0;
   width: 100vw;
   height: 80vh;
+  min-height: 400px;
   position: relative;
   top: 130px;
   background-image: url("../img/made.jpg");
   display: table-cell;
   vertical-align: middle; }
   footer .logo {
+    margin-top: -200px;
     float: none;
     font-size: 18px;
     text-align: center; }
@@ -416,7 +444,7 @@ Helpers
    * Intro
    */
   #intro .section-content {
-    margin-top: 160px; }
+    margin-top: 230px; }
 
   /*
    * Hantverk
