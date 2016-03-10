@@ -135,7 +135,7 @@ h1, h2 {
     font-weight: lighter;
 }
 h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 1.1;
 }
 h2 {
@@ -294,7 +294,7 @@ Header & meny
         display: block;
     }
     a {
-        padding: 14px 46px 10px 20px;
+        padding: 14px 60px 10px 20px;
         display: block;
         font-size: 13px;
         text-transform: uppercase;
@@ -309,19 +309,22 @@ Header & meny
     }
     .history {
         background-image: url('../img/icons/icon-flag.svg');
-        &:hover {
+        &:hover,
+        &.active {
             background-image: url('../img/icons/icon-flag-hover.svg');
         }
     }
     .reseller {
         background-image: url('../img/icons/icon-marker.svg');
-        &:hover {
+        &:hover,
+        &.active {
             background-image: url('../img/icons/icon-marker-hover.svg');
         }
     }
     .furniture-series {
         background-image: url('../img/icons/icon-mobler.svg');
-        &:hover {
+        &:hover,
+        &.active {
             background-image: url('../img/icons/icon-mobler-hover.svg');
         }
     }
@@ -343,7 +346,7 @@ Sektioner
 }
 
 .title-br {
-    margin: 24px 0 30px 0;
+    margin: 24px auto 30px auto;
     width: 100px;
     height: 2px;
     background: #ccc;
@@ -353,11 +356,14 @@ Sektioner
 .section-content {
     width: 100%;
     .title {
-        margin: 0;
+        /*margin: 0;*/
     }
-    
+    h1 {
+        text-align: center;
+    }
     p {
         margin: 0;
+        text-align: center;
     }
     &.on-background {
         color: white;
@@ -371,14 +377,23 @@ Sektioner
  * Intro
  */
 #intro {
-    background-image: url('../img/start.jpg');
     h1 {
-        font-size: 56px;
+        font-size: 46px;
     }
     .section-content {
         p {
             margin-bottom: 30px;
+            text-align: center;
         }
+    }
+    .section-content {
+        p {
+            text-align: left;
+        }
+    }
+    .title-br {
+        margin-left: auto;
+        margin-right: auto;
     }
     .floating-button {
         position: absolute;
@@ -434,7 +449,6 @@ Sektioner
 #high-tech {
     .section-image {
         width: 50%;
-        float: left;
     }
     .round-button {
         position: relative;
@@ -579,6 +593,10 @@ footer {
 /* ==========================================================================
 Helpers
 ========================================================================== */
+.hide-on-small {
+    display: none;
+}
+
 .center-block {
     margin-left: auto !important;
     margin-right: auto !important;

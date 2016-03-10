@@ -14,7 +14,7 @@
     }
 
 }
-@media (min-width: 700px) {
+@media (min-width: 769px) {
 
     /* ==========================================================================
     Sektioner
@@ -23,17 +23,30 @@
     /*
      * Generellt
      */
-    
+    .title-br {
+        margin: 24px 0 30px 0; 
+    }
     .section-content {
         width: 40.17094017094%;
+        h1,
+        p {
+            text-align: left;
+        }
     }
-
+    
     /*
      * Intro
      */
     #intro {
+        background-image: url('../img/start-large.jpg');
         .section-content {
-            margin-top: 230px;
+            p {
+                text-align: left;
+            }
+        }
+        .title-br {
+            margin-left: 0;
+            margin-right: 0;
         }
     }
 
@@ -45,6 +58,10 @@
             .section-content {
                 width: 48.717948717949%;
             }
+            h1 {
+                text-align: center;
+            }
+                
         }
     }
 
@@ -52,6 +69,9 @@
      * High tech
      */
     #high-tech {
+        .section-image {
+            float: left;
+        }
         .section-content {
             margin-top: 130px;
             margin-left: 52.564102564103%;
@@ -97,13 +117,18 @@
         }
     }
 
+    /* ==========================================================================
+    Helpers
+    ========================================================================== */
+    .hide-on-small {
+        display: block;
+    }
+    .hide-on-large {
+        display: none;
+    }
 }
 
 @media (min-width: 930px) {
-
-    .site-header {
-        position: fixed; 
-    }
 
     .brand {
         float: left;
@@ -122,3 +147,30 @@
         padding-top: 150px;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .site-header {
+        position: fixed; 
+    }
+
+    /*
+     * Typografi
+     */
+    h1 {
+        font-size: 50px;
+    }
+
+    /*
+     * Intro
+     */
+    #intro {
+        h1 {
+            font-size: 56px;
+        }
+        .section-content {
+            margin-top: 230px;
+        }
+    }
+}
+
