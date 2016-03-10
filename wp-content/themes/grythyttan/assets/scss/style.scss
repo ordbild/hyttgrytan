@@ -294,7 +294,7 @@ Header & meny
         display: block;
     }
     a {
-        padding: 14px 60px 10px 20px;
+        padding: 14px 46px 10px 20px;
         display: block;
         font-size: 13px;
         text-transform: uppercase;
@@ -308,6 +308,7 @@ Header & meny
         }
     }
     .history {
+        padding: 14px 60px 10px 20px;
         background-image: url('../img/icons/icon-flag.svg');
         &:hover,
         &.active {

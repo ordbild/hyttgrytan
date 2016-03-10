@@ -247,7 +247,7 @@ Header & meny
     max-width: 320px;
     display: block; }
   .main-menu a {
-    padding: 14px 60px 10px 20px;
+    padding: 14px 46px 10px 20px;
     display: block;
     font-size: 13px;
     text-transform: uppercase;
@@ -258,6 +258,7 @@ Header & meny
       color: white;
       background-color: #9f9f9f; }
   .main-menu .history {
+    padding: 14px 60px 10px 20px;
     background-image: url("../img/icons/icon-flag.svg"); }
     .main-menu .history:hover, .main-menu .history.active {
       background-image: url("../img/icons/icon-flag-hover.svg"); }
@@ -515,7 +516,8 @@ Helpers
    */
   #hantverk .slide-1 .section-content {
     width: 48.717948717949%; }
-  #hantverk .slide-1 h1 {
+  #hantverk .slide-1 h1,
+  #hantverk .slide-1 p {
     text-align: center; }
 
   /*
