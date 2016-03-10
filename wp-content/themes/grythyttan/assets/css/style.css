@@ -29,8 +29,8 @@ section {
   font-size: 15px; }
 
 .round-button {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 100px;
   display: table-cell;
   line-height: 1;
@@ -304,6 +304,9 @@ Sektioner
 #high-tech .section-image {
   width: 50%;
   float: left; }
+#high-tech .button {
+  position: relative;
+  top: 30px; }
 
 #historia {
   background-image: url("../img/historia.jpg"); }

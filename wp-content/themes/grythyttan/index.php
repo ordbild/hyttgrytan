@@ -6,7 +6,7 @@
                     <h1 class="title">En svensk historia<br>– nu i Norge</h1>
                     <div class="title-br"></div>
                     <p>Våra sköngungande hantverk har varit en självklar del av den svenska sommaren i över åttio år – så nu tycker vi de är redo för Norge.</p>
-                    <a class="button round-button green-fill" href="#">
+                    <a class="button round-button green-fill green-border" href="#">
                         Upptäck<br>mer<br>
                     </a>
                 </div>
@@ -94,6 +94,9 @@
                     <h1 class="title">Vår nyhet är en klassiker</h1>
                     <div class="title-br"></div>
                     <p>High-Tech är ett tydligt bevis för att vi skyndar långsamt. Det är vår senaste större nyhet, utvecklad av Nisse Strinning och lanserad på åttiotalet, som redan uppnått klassikerstatus i mångas ögon. Vi håller den dock som en smak av framtiden. Eller vad tycker du?</p>
+                    <a class="button round-button border green-border transparent-fill" href="<?php echo home_url();?>/mobelserier">
+                        Våra<br>möbler
+                    </a>
                 </div>
             </div>
         </div>
