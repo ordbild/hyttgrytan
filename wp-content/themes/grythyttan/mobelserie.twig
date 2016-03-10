@@ -6,9 +6,12 @@
             <div class="overview">
                 <div class="overview-category">
                     <div class="overview-category-description">
-                        <h1>{{series_name}}</h1>
+                        <h1>{{series.name}}</h1>
                         <div class="title-br"></div>
-                        {{ function('wpautop', description) }} 
+                        {{ function('wpautop', series.description) }} 
+                        {% for plask in furniture_series %}
+                            <li>{{plask.name}}</li>
+                        {% endfor %}
                     </div>    
                     <div class="overview-category-products">
                         <ul>
