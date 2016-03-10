@@ -43,6 +43,11 @@ section {
 /*
  * Typografi
  */
+body {
+  font-family: HelveticaNeueLTStd-Lt;
+  font-weight: normal;
+  font-style: normal; }
+
 h1, h2 {
   color: #006539;
   font-weight: lighter; }
@@ -74,6 +79,8 @@ p {
 /*
  * Slider
  */
+.slider .full-height {
+  min-height: 80vh; }
 .slider .slick-dots {
   margin: 0;
   padding: 0;

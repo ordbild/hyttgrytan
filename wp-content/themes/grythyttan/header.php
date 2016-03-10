@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/normalize.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/boilerplate.css">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+        <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/fonts.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style.css">
         <!--[if lt IE 9]>
 <script src="<?php bloginfo('template_directory');?>/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
