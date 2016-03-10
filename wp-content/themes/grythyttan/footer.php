@@ -4,6 +4,7 @@
                 <source type="image/svg+xml" srcset="<?php bloginfo('template_directory');?>/assets/img/grythyttan-logo.svg">
                 <img src="<?php bloginfo('template_directory');?>/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
                 </picture>
+                <p>En svensk historie – nå i Norge</p>
             </div>
         </footer>
 

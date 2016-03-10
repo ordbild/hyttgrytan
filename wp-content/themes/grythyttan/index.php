@@ -120,35 +120,44 @@
            <div class="row">
                <div class="column-3">
                    <div class="inner-column">
-                       <figure class="with-caption-overlay">
-                           <img src="<?php bloginfo('template_directory');?>/assets/img/klassikerserien.jpg" alt="Klassikerserien">
-                           <figcaption>
+                       <a href="#">
+                           <figure class="with-caption-overlay">
+                               <img src="<?php bloginfo('template_directory');?>/assets/img/mo-klassikerserien.jpg" alt="Klassikerserien" class="mouse-over-image">
+                               <img src="<?php bloginfo('template_directory');?>/assets/img/klassikerserien.jpg" alt="Klassikerserien">
+                               <figcaption>
                                <h2 class="title">Klassikerserien</h2> 
                                <div class="title-br"></div>
-                           </figcaption>
-                       </figure>
+                               </figcaption>
+                           </figure>
+                       </a>
                    </div>
                </div>
                <div class="column-3">
                    <div class="inner-column">
-                       <figure class="with-caption-overlay">
-                           <img src="<?php bloginfo('template_directory');?>/assets/img/high-tech.jpg" alt="High-tech">
-                           <figcaption>
+                       <a href="#">
+                           <figure class="with-caption-overlay">
+                               <img src="<?php bloginfo('template_directory');?>/assets/img/mo-hightech.jpg" alt="High-tech" class="mouse-over-image">
+                               <img src="<?php bloginfo('template_directory');?>/assets/img/high-tech.jpg" alt="High-tech">
+                               <figcaption>
                                <h2 class="title">High-tech</h2> 
                                <div class="title-br"></div>
-                           </figcaption>
-                       </figure>
+                               </figcaption>
+                           </figure>
+                       </a>
                    </div>
                </div>
                <div class="column-3">
                    <div class="inner-column">
-                       <figure class="with-caption-overlay">
-                           <img src="<?php bloginfo('template_directory');?>/assets/img/bryggeriserien.jpg" alt="Bryggeriserien">
-                           <figcaption>
+                       <a href="#">
+                           <figure class="with-caption-overlay">
+                               <img src="<?php bloginfo('template_directory');?>/assets/img/mo-bryggeriserien.jpg" alt="Bryggeriserien" class="mouse-over-image">
+                               <img src="<?php bloginfo('template_directory');?>/assets/img/bryggeriserien.jpg" alt="Bryggeriserien">
+                               <figcaption>
                                <h2 class="title">Bryggeriserien</h2> 
                                <div class="title-br"></div>
-                           </figcaption>
-                       </figure>
+                               </figcaption>
+                           </figure>
+                       </a>
                    </div>
                </div>
            </div>

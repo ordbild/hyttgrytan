@@ -408,24 +408,36 @@ Sektioner
         .title-br {
             background: $green;
         }
+        .mouse-over-image {
+            opacity: 1;
+        }
     }
     h1 {
         text-align: center;
     }
     h2 {
-        color: #9f9f9f;
+        color: white;
     }
     figure {
-        margin: 0 0 23px 0;
+        margin: 0;
         position: relative;
         figcaption {
+            padding: 40px 30px;
             position: absolute;
             top: 0;
             left: 0;
         }
     }
+    .mouse-over-image {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity .4s;
+    }
     .title-br {
         margin: 22px 0 18px 0;
+        background-color: white;
     }
 }
 
@@ -462,12 +474,21 @@ Footer
 ========================================================================== */
 
 footer {
-    margin: 125px 0 20px 0;
+    margin: 0 0 20px 0;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    top: 130px;
+    background-image: url('../img/made.jpg');
+    display: table-cell;
+    vertical-align: middle;
     .logo {
         float: none;
+        font-size: 18px;
+        text-align: center;
         img {
             @include center-block;
-            max-width: 250px;        
+            max-width: 300px;        
             width: 100%;
         }
     }

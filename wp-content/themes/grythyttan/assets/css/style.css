@@ -315,19 +315,29 @@ Sektioner
   color: #006539; }
 #produktserier .inner-column:hover .title-br {
   background: #006539; }
+#produktserier .inner-column:hover .mouse-over-image {
+  opacity: 1; }
 #produktserier h1 {
   text-align: center; }
 #produktserier h2 {
-  color: #9f9f9f; }
+  color: white; }
 #produktserier figure {
-  margin: 0 0 23px 0;
+  margin: 0;
   position: relative; }
   #produktserier figure figcaption {
+    padding: 40px 30px;
     position: absolute;
     top: 0;
     left: 0; }
+#produktserier .mouse-over-image {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity .4s; }
 #produktserier .title-br {
-  margin: 22px 0 18px 0; }
+  margin: 22px 0 18px 0;
+  background-color: white; }
 
 /* ==========================================================================
 Sidor
@@ -357,13 +367,22 @@ Sidor
 Footer
 ========================================================================== */
 footer {
-  margin: 125px 0 20px 0; }
+  margin: 0 0 20px 0;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  top: 130px;
+  background-image: url("../img/made.jpg");
+  display: table-cell;
+  vertical-align: middle; }
   footer .logo {
-    float: none; }
+    float: none;
+    font-size: 18px;
+    text-align: center; }
     footer .logo img {
       margin: 0 auto;
       display: block;
-      max-width: 250px;
+      max-width: 300px;
       width: 100%; }
 
 /* ==========================================================================
