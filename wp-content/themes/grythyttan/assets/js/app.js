@@ -9,6 +9,10 @@
             dots: true,
             infinite: false
         });
+        $('a.js-next-slide').on('click', function (e) {
+            e.preventDefault();
+            $(this).parents('div.slider').slick('slickNext');
+        });
         
         var $menuBar = $('header.site-header');
         $('#intro h1').hitsTop(function(hasHitTop){

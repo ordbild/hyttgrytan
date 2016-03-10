@@ -32,7 +32,7 @@
                             <h1 class="title">Känsla och tradition</h1>
                             <div class="title-br center-block"></div>
                             <p>En enkel, självklar och tidlös form. Varje detalj är viktig och genomarbetad. Det är en ren och solid känsla som vi vill förmedla i allt vi gör. Och föra vidare till alla vi möter.</p>    
-                            <a class="button round-button white-border transparent-fill" href="#">Läs mer</a>
+                            <a class="button round-button white-border transparent-fill js-next-slide" href="#">Läs mer</a>
                         </div>
                     </div>    
                 </div><!-- site-width --> 
