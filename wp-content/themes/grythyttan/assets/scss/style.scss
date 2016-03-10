@@ -252,11 +252,6 @@ Header & meny
         background-position: right 10px center;
     }
     a {
-        /*
-        padding: 0 40px 0 20px;
-        height: 38px;
-        line-height: 38px;
-        */
         padding: 14px 36px 10px 20px;
         display: block;
         border-radius: 20px;
@@ -266,6 +261,7 @@ Header & meny
         text-decoration: none;
         line-height: 1;
         color: black;
+        transition: all .2s;
         &.active,
         &:hover {
             color: white;
