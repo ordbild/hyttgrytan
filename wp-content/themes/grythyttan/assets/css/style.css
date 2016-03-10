@@ -14,6 +14,21 @@
 /* ==========================================================================
 Globals
 ========================================================================== */
+html, body {
+  height: 100%; }
+
+body.mobelserie {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+body.klassikerserien {
+  background: url("../img/bg-klassikerserien.jpg") no-repeat center center fixed; }
+body.high-tech {
+  background: url("../img/bg-hightech.jpg") no-repeat center center fixed; }
+body.bryggeriserien {
+  background: url("../img/bg-bryggeriserien.jpg") no-repeat center center fixed; }
+
 /*
  * Element
  */
@@ -34,7 +49,7 @@ section {
   text-decoration: none;
   line-height: 1;
   color: black;
-  transition: all .2s; }
+  transition: background-color border .2s; }
 
 .round-button {
   font-size: 15px;
@@ -152,6 +167,7 @@ Header & meny
 .site-header {
   display: inline-block;
   width: 100%;
+  background: white;
   z-index: 2;
   -webkit-transition-property: background;
   -webkit-transition-duration: .2s;
@@ -181,9 +197,12 @@ Header & meny
     height: 1px;
     background: black;
     opacity: .1; }
-  .site-header.fixed {
+
+.home .site-header {
+  background: none; }
+  .home .site-header.fixed {
     background: white; }
-    .site-header.fixed .header-border {
+    .home .site-header.fixed .header-border {
       display: block; }
 
 /*
@@ -226,24 +245,30 @@ Header & meny
   .main-menu li {
     margin: 9px auto;
     max-width: 320px;
-    display: block;
-    background-repeat: no-repeat;
-    background-size: auto 18px;
-    background-position: right 20px center; }
+    display: block; }
   .main-menu a {
     padding: 14px 46px 10px 20px;
     display: block;
     font-size: 13px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: auto 18px;
+    background-position: right 20px center; }
     .main-menu a.active, .main-menu a:hover {
       color: white;
-      background: #9f9f9f; }
+      background-color: #9f9f9f; }
   .main-menu .history {
     background-image: url("../img/icons/icon-flag.svg"); }
+    .main-menu .history:hover {
+      background-image: url("../img/icons/icon-flag-hover.svg"); }
   .main-menu .reseller {
     background-image: url("../img/icons/icon-marker.svg"); }
+    .main-menu .reseller:hover {
+      background-image: url("../img/icons/icon-marker-hover.svg"); }
   .main-menu .furniture-series {
     background-image: url("../img/icons/icon-mobler.svg"); }
+    .main-menu .furniture-series:hover {
+      background-image: url("../img/icons/icon-mobler-hover.svg"); }
 
 /* ==========================================================================
 Sektioner
@@ -375,8 +400,23 @@ Sidor
 /*
  * Våra möbelserier
  */
+.overview {
+  margin-top: 150px; }
+  .overview h1 {
+    margin-top: 0;
+    color: white; }
+  .overview .title-br {
+    background: white; }
+
+.overview-categories .title-br {
+  margin-bottom: 0; }
+
+.overview-category-description {
+  color: white; }
+
 .overview-category-products {
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 88px; }
   .overview-category-products:after {
     content: ".";
     display: block;

@@ -1,15 +1,14 @@
 {% extends 'master.twig' %}
 {% block main %}
-    <section class="site-width below-fixed-header">
+    <section class="site-width">
         <div class="inner">
 
             <div class="overview">
-                <header class="overview-categories">
-                    <h2>{{furniture_series}}</h2>
-                </header>
                 <div class="overview-category">
                     <div class="overview-category-description">
-                        <p>Den populära Klassikerserien har en speciell plats i mångas hjärtan, och är ett kärt inslag i många trädgårdar och täppor. Alla möbler har samma bakomliggande tanke: design, komfort och funktionalitet.</p>
+                        <h1>{{series_name}}</h1>
+                        <div class="title-br"></div>
+                        {{ function('wpautop', description) }} 
                     </div>    
                     <div class="overview-category-products">
                         <ul>
