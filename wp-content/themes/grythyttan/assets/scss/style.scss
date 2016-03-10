@@ -62,6 +62,7 @@ section {
     vertical-align: middle;
     text-align: center;
     text-decoration: none;
+    transition: all .2s;
     &.green-border {
         border: 2px solid $green;
     }
@@ -73,8 +74,21 @@ section {
         background: white;
         color: $green;
     }
+    &.white-border {
+        border: 2px solid white;
+    }
     &.transparent-fill {
-        color: white;
+        &.white-border {
+            color: white;
+        }
+        &.green-border {
+            color: $green;
+        }
+    }
+    &:hover {
+        background: $green;
+        color: white !important;
+        border: 2px solid $green;
     }
 }
 
@@ -122,6 +136,9 @@ p {
 .slider {
     .full-height {
         min-height: 80vh;
+    }
+    .title-br {
+        background: white;
     }
     .slick-dots {
         margin: 0;
@@ -287,9 +304,7 @@ Sektioner
     height: 2px;
     background: #ccc;
 }
-.has-background .title-br {
-    background: white;
-}
+
 
 .section-content {
     width: 100%;
@@ -347,8 +362,6 @@ Sektioner
         width: 90px;
         height: 90px;
         line-height: 90px;
-        background: none;
-        border: 2px solid white;
     }
 
     /* Slider */
@@ -375,7 +388,9 @@ Sektioner
 }
 
 #high-tech {
-    .section-content {
+    .section-image {
+        width: 50%;
+        float: left;
     }
 }
 

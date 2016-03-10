@@ -10599,6 +10599,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353825,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/grythyttan\/assets\/js\/app.js": {
 		"fileType": 64,
 		"ignore": 0,

@@ -15,7 +15,7 @@
         <div class="floating-button">
             <div class="site-width">
                 <div class="button-wrap">
-                    <a class="button round-button border green-border white-fill" href="<?php echo home_url();?>/mobelserier">
+                    <a class="button round-button border green-border transparent-fill" href="<?php echo home_url();?>/mobelserier">
                     Våra<br>möbler
                     </a>
                 </div>
@@ -32,7 +32,7 @@
                             <h1 class="title">Känsla och tradition</h1>
                             <div class="title-br center-block"></div>
                             <p>En enkel, självklar och tidlös form. Varje detalj är viktig och genomarbetad. Det är en ren och solid känsla som vi vill förmedla i allt vi gör. Och föra vidare till alla vi möter.</p>    
-                            <a class="button round-button white-border transparent-fill js-next-slide" href="#">Läs mer</a>
+                            <a class="button round-button white-border transparent-fill white-border js-next-slide" href="#">Läs mer</a>
                         </div>
                     </div>    
                 </div><!-- site-width --> 
@@ -84,12 +84,17 @@
         </div>       
     </section>
 
-    <section id="high-tech" class="site-width full-height">
-        <div class="inner">
-            <div class="section-content">
-                <h1 class="title">Vår nyhet är en klassiker</h1>
-                <div class="title-br"></div>
-                <p>High-Tech är ett tydligt bevis för att vi skyndar långsamt. Det är vår senaste större nyhet, utvecklad av Nisse Strinning och lanserad på åttiotalet, som redan uppnått klassikerstatus i mångas ögon. Vi håller den dock som en smak av framtiden. Eller vad tycker du?</p>
+    <section id="high-tech" class="full-height">
+        <div class="section-image">
+            <img src="<?php bloginfo('template_directory');?>/assets/img/stol-hightech.jpg">
+        </div>
+        <div class="site-width">
+            <div class="inner">
+                <div class="section-content">
+                    <h1 class="title">Vår nyhet är en klassiker</h1>
+                    <div class="title-br"></div>
+                    <p>High-Tech är ett tydligt bevis för att vi skyndar långsamt. Det är vår senaste större nyhet, utvecklad av Nisse Strinning och lanserad på åttiotalet, som redan uppnått klassikerstatus i mångas ögon. Vi håller den dock som en smak av framtiden. Eller vad tycker du?</p>
+                </div>
             </div>
         </div>
     </section>

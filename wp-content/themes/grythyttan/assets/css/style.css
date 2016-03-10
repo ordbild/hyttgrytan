@@ -36,7 +36,8 @@ section {
   line-height: 1;
   vertical-align: middle;
   text-align: center;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: all .2s; }
   .round-button.green-border {
     border: 2px solid #006539; }
   .round-button.green-fill {
@@ -45,8 +46,16 @@ section {
   .round-button.white-fill {
     background: white;
     color: #006539; }
-  .round-button.transparent-fill {
+  .round-button.white-border {
+    border: 2px solid white; }
+  .round-button.transparent-fill.white-border {
     color: white; }
+  .round-button.transparent-fill.green-border {
+    color: #006539; }
+  .round-button:hover {
+    background: #006539;
+    color: white !important;
+    border: 2px solid #006539; }
 
 /*
  * Typografi
@@ -90,6 +99,8 @@ p {
  */
 .slider .full-height {
   min-height: 80vh; }
+.slider .title-br {
+  background: white; }
 .slider .slick-dots {
   margin: 0;
   padding: 0;
@@ -236,9 +247,6 @@ Sektioner
   height: 2px;
   background: #ccc; }
 
-.has-background .title-br {
-  background: white; }
-
 .section-content {
   width: 100%; }
   .section-content .title {
@@ -280,9 +288,7 @@ Sektioner
     display: block;
     width: 90px;
     height: 90px;
-    line-height: 90px;
-    background: none;
-    border: 2px solid white; }
+    line-height: 90px; }
   #hantverk .slide-1 {
     background-image: url("../img/slides/hantverk/hantverk-1.jpg"); }
     #hantverk .slide-1 .section-content {
@@ -298,6 +304,10 @@ Sektioner
     background-image: url("../img/slides/hantverk/hantverk-4.jpg"); }
   #hantverk .slide-5 {
     background-image: url("../img/slides/hantverk/hantverk-5.jpg"); }
+
+#high-tech .section-image {
+  width: 50%;
+  float: left; }
 
 #historia {
   background-image: url("../img/historia.jpg"); }
