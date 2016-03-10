@@ -205,6 +205,9 @@ Header & meny
         margin: 9px auto;
         max-width: 320px;
         display: block;
+        background-repeat: no-repeat;
+        background-size: auto 18px;
+        background-position: right 10px center;
     }
     a {
         padding: 0 40px 0 20px;
@@ -212,10 +215,6 @@ Header & meny
         line-height: 38px;
         display: block;
         border-radius: 20px;
-        background: white;
-        background-repeat: no-repeat;
-        background-size: auto 18px;
-        background-position: right 10px center;
         border: 2px solid $darkGrey;
         font-size: 13px;
         text-transform: uppercase;

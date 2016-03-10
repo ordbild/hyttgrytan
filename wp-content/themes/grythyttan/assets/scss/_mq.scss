@@ -23,9 +23,7 @@
     /*
      * Generellt
      */
-    .below-fixed-header {
-        padding-top: 150px;
-    }
+    
     .section-content {
         width: 48.717948717949%;
     }
@@ -110,5 +108,7 @@
             display: inline-block;
         }
     }
-
+    .below-fixed-header {
+        padding-top: 150px;
+    }
 }

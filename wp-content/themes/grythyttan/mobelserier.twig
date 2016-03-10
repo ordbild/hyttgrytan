@@ -1,11 +1,11 @@
-<?php include '../header.php';?>
-
+{% extends 'master.twig' %}
+{% block main %}
     <section class="site-width below-fixed-header">
         <div class="inner">
 
             <div class="overview">
                 <header class="overview-categories">
-                    <h2>Klassikerserien</h2>
+                    <h2>{{furniture_series}}</h2>
                 </header>
                 <div class="overview-category">
                     <div class="overview-category-description">
@@ -15,62 +15,62 @@
                         <ul>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                             <li>
                                 <div class="inner">
-                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                    <img src="{{theme.link}}/assets/img/exempel-produktgrid.jpg">
                                 </div>
                             </li>
                         </ul>
@@ -81,5 +81,5 @@
 
         </div>     
     </section>
+{% endblock %}
 
-<?php include '../footer.php';?>

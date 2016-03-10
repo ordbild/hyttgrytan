@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Grythyttan stålmöbler</title>
-        <link rel="stylesheet" href="/assets/css/normalize.css">
-        <link rel="stylesheet" href="/assets/css/boilerplate.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/normalize.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/boilerplate.css">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
-        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style.css">
         <!--[if lt IE 9]>
-            <script src="/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="<?php bloginfo('template_directory');?>/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <![endif]-->
+        <?php wp_head();?>
     </head>
     <body>
 
@@ -20,8 +21,8 @@
                     <div class="logo">
                         <a href="/">
                             <picture>
-                            <source type="image/svg+xml" srcset="/assets/img/grythyttan-logo.svg">
-                            <img src="/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
+                            <source type="image/svg+xml" srcset="<?php bloginfo('template_directory');?>/assets/img/grythyttan-logo.svg">
+                            <img src="<?php bloginfo('template_directory');?>/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
                             </picture>
                         </a>
                     </div>
@@ -29,17 +30,17 @@
                         <ul>
                             <li class="social-media-icon icon-facebook">
                                 <a href="#">
-                                    <img src="/assets/img/icons/icon-fb-wo-box.svg" alt="Facebook">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/icons/icon-fb-wo-box.svg" alt="Facebook">
                                 </a> 
                             </li>
                             <li class="social-media-icon icon-twitter">
                                 <a href="#">
-                                    <img src="/assets/img/icons/icon-twitter.svg" alt="Twitter">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/icons/icon-twitter.svg" alt="Twitter">
                                 </a>    
                             </li>
                             <li class="social-media-icon icon-instagram">
                                 <a href="#">
-                                    <img src="/assets/img/icons/icon-instagram.svg" alt="Instagram">
+                                    <img src="<?php bloginfo('template_directory');?>/assets/img/icons/icon-instagram.svg" alt="Instagram">
                                 </a> 
                             </li>
                         </ul>
@@ -48,22 +49,23 @@
                 
                 <nav class="main-menu">
                     <ul>
-                        <li class="main-menu-item">
-                            <a href="/" class="active history">
+                        <li class="main-menu-item history">
+                            <a href="/" class="active">
                                 En svensk historia
                             </a>
                         </li>
-                        <li class="main-menu-item">
-                            <a href="#" class="reseller">
-                                Återförsäljare
+                        <li class="main-menu-item furniture-series">
+                            <a href="/mobelserier">
+                                Våra möbelserier
                             </a>
                         </li>
-                        <li class="main-menu-item">
-                            <a href="/mobelserier" class="furniture-series">
-                                Våra möbelserier
+                        <li class="main-menu-item reseller">
+                            <a href="http://www.grythyttan.net/hitta-butik/">
+                                Återförsäljare
                             </a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </header>
+
