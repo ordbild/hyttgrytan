@@ -56,8 +56,8 @@
                             </a>
                         </li>
                         <li class="main-menu-item furniture-series">
-                            <a href="/mobelserier">
-                                Våra möbelserier
+                            <a href="<?php echo home_url();?>/mobelserier">
+                                Våra möbler
                             </a>
                         </li>
                         <li class="main-menu-item reseller">
