@@ -270,7 +270,7 @@ Header & meny
         display: block;
         background-repeat: no-repeat;
         background-size: auto 18px;
-        background-position: right 10px center;
+        background-position: right 20px center;
     }
     a {
         padding: 14px 36px 10px 20px;
@@ -421,7 +421,7 @@ Sektioner
             color: $green;
         }
         p {
-            color: black;
+            display: none;
         }
         .title-br {
             background: $green;
@@ -464,6 +464,11 @@ Sektioner
     .title-br {
         margin: 22px 0 18px 0;
         background-color: white;
+    }
+    .button {
+        position: absolute;
+        bottom: 40px;
+        left: 30px;
     }
 }
 

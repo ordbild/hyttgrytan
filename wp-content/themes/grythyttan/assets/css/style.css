@@ -229,7 +229,7 @@ Header & meny
     display: block;
     background-repeat: no-repeat;
     background-size: auto 18px;
-    background-position: right 10px center; }
+    background-position: right 20px center; }
   .main-menu a {
     padding: 14px 36px 10px 20px;
     display: block;
@@ -332,7 +332,7 @@ Sektioner
 #produktserier .inner-column:hover h2 {
   color: #006539; }
 #produktserier .inner-column:hover p {
-  color: black; }
+  display: none; }
 #produktserier .inner-column:hover .title-br {
   background: #006539; }
 #produktserier .inner-column:hover .mouse-over-image {
@@ -364,6 +364,10 @@ Sektioner
 #produktserier .title-br {
   margin: 22px 0 18px 0;
   background-color: white; }
+#produktserier .button {
+  position: absolute;
+  bottom: 40px;
+  left: 30px; }
 
 /* ==========================================================================
 Sidor
