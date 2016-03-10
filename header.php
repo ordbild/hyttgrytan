@@ -11,7 +11,6 @@
         <!--[if lt IE 9]>
             <script src="/assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <![endif]-->
-        <base href="/">
     </head>
     <body>
 

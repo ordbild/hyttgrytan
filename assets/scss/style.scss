@@ -246,7 +246,6 @@ Sektioner
  * Generellt
  */
 .below-fixed-header {
-    padding-top: 150px;
 }
 
 .has-background {
@@ -389,9 +388,12 @@ Sidor
         padding: 0;
     }
     li {
-        width: 24.545454545455%;
+        width: 50%;
         float: left;
         display: block;
+        .inner {
+            padding: 1px;
+        }
     }
 }
 
@@ -400,7 +402,7 @@ Footer
 ========================================================================== */
 
 footer {
-    margin: 125px 0;
+    margin: 125px 0 20px 0;
     .logo {
         float: none;
         img {

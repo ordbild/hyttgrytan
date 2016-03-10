@@ -205,9 +205,6 @@ Sektioner
 /*
  * Generellt
  */
-.below-fixed-header {
-  padding-top: 150px; }
-
 .has-background {
   background-position: 50% 50%;
   background-size: cover; }
@@ -307,15 +304,17 @@ Sidor
     margin: 0;
     padding: 0; }
   .overview-category-products li {
-    width: 24.545454545455%;
+    width: 50%;
     float: left;
     display: block; }
+    .overview-category-products li .inner {
+      padding: 1px; }
 
 /* ==========================================================================
 Footer
 ========================================================================== */
 footer {
-  margin: 125px 0; }
+  margin: 125px 0 20px 0; }
   footer .logo {
     float: none; }
     footer .logo img {
@@ -332,6 +331,15 @@ Helpers
   margin-right: auto !important;
   display: block; }
 
+@media (min-width: 500px) {
+  /* ==========================================================================
+  Sidor
+  ========================================================================== */
+  /*
+   * Våra möbelserier
+   */
+  .overview-category-products li {
+    width: 33.333333%; } }
 @media (min-width: 700px) {
   /* ==========================================================================
   Sektioner
@@ -339,6 +347,9 @@ Helpers
   /*
    * Generellt
    */
+  .below-fixed-header {
+    padding-top: 150px; }
+
   .section-content {
     width: 48.717948717949%; }
 
@@ -382,7 +393,9 @@ Helpers
 
   .overview-category-products {
     width: 65.811965811966%;
-    float: right; } }
+    float: right; }
+    .overview-category-products li {
+      width: 24.545454545455%; } }
 @media (min-width: 930px) {
   .site-header {
     position: fixed; }

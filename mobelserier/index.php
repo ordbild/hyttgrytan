@@ -14,40 +14,64 @@
                     <div class="overview-category-products">
                         <ul>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                             <li>
-                                <img src="/assets/img/exempel-produktgrid.jpg">
+                                <div class="inner">
+                                    <img src="/assets/img/exempel-produktgrid.jpg">
+                                </div>
                             </li>
                         </ul>
                     </div>
