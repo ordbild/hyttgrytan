@@ -146,10 +146,10 @@ p {
     border-radius: 100px;
     text-indent: -9999px;
     color: white;
-    background: white;
+    background: #006539;
     border: none; }
   .slider .slick-dots .slick-active button {
-    background: #9f9f9f; }
+    background: white; }
 
 /* ==========================================================================
 Grid
@@ -337,8 +337,10 @@ Sektioner
 #intro .section-content p {
   margin-bottom: 30px;
   text-align: center; }
-#intro .section-content p {
-  text-align: left; }
+#intro .section-content .round-button {
+  width: 100px;
+  height: 87px;
+  padding-top: 13px; }
 #intro .title-br {
   margin-left: auto;
   margin-right: auto; }
@@ -359,11 +361,12 @@ Sektioner
   #hantverk .section-content {
     margin-top: 105px; }
   #hantverk .round-button {
-    margin: 50px auto 0 auto;
+    margin-top: 30px;
+    padding-top: 25px;
+    width: 70px;
+    height: 45px;
     display: block;
-    width: 90px;
-    height: 90px;
-    line-height: 90px; }
+    font-size: 25px; }
   #hantverk .slide-1 {
     background-image: url("../img/slides/hantverk/hantverk-1.jpg"); }
     #hantverk .slide-1 .section-content {
@@ -371,6 +374,12 @@ Sektioner
       display: block;
       margin-top: 105px;
       text-align: center; }
+    #hantverk .slide-1 .round-button {
+      margin: 50px auto 0 auto;
+      padding-top: 35px;
+      width: 90px;
+      height: 55px;
+      font-size: 15px; }
   #hantverk .slide-2 {
     background-image: url("../img/slides/hantverk/hantverk-2.jpg"); }
   #hantverk .slide-3 {
@@ -601,6 +610,7 @@ Helpers
 
   .main-menu {
     display: block;
+    clear: none;
     margin-top: 25px;
     float: right; }
     .main-menu .main-menu-item {
@@ -609,7 +619,7 @@ Helpers
 
   .below-fixed-header {
     padding-top: 150px; } }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .site-header {
     position: fixed; }
 

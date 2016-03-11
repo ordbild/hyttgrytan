@@ -137,6 +137,7 @@
 
     .main-menu {
         display: block;
+        clear: none;
         margin-top: 25px;
         float: right;
         .main-menu-item {
@@ -149,7 +150,7 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 
     .site-header {
         position: fixed; 
