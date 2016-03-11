@@ -139,30 +139,32 @@ p {
 /*
  * Slider
  */
-.slider .full-height {
-  min-height: 480px; }
-.slider .title-br {
-  background: white; }
-.slider .slick-dots {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  top: -51px;
-  text-align: center; }
-  .slider .slick-dots li {
-    margin: 0 6px;
-    display: inline-block; }
-  .slider .slick-dots button {
-    padding: 0;
-    width: 10px;
-    height: 10px;
-    border-radius: 100px;
-    text-indent: -9999px;
-    color: white;
-    background: #006539;
-    border: none; }
-  .slider .slick-dots .slick-active button {
+.slider {
+  font-size: 20px; }
+  .slider .full-height {
+    min-height: 480px; }
+  .slider .title-br {
     background: white; }
+  .slider .slick-dots {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -51px;
+    text-align: center; }
+    .slider .slick-dots li {
+      margin: 0 6px;
+      display: inline-block; }
+    .slider .slick-dots button {
+      padding: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 100px;
+      text-indent: -9999px;
+      color: white;
+      background: #006539;
+      border: none; }
+    .slider .slick-dots .slick-active button {
+      background: white; }
 
 /* ==========================================================================
 Grid
@@ -257,7 +259,7 @@ Header & meny
 .mobile-menu-icon {
   width: 30px;
   height: 30px;
-  background: url("../img/icons/icon-mobler.svg") no-repeat white;
+  background: url("../img/icons/icon-menu.svg") no-repeat white;
   border: none;
   text-indent: -9999px; }
   .mobile-menu-icon:focus {
@@ -363,6 +365,7 @@ Sektioner
     display: block;
     font-size: 25px; }
   #hantverk .slide-1 {
+    font-size: 16px;
     background-image: url("../img/slides/hantverk/hantverk-1.jpg"); }
     #hantverk .slide-1 .section-content {
       text-align: center; }
@@ -593,8 +596,6 @@ Helpers
   /*
    * Hantverk
    */
-  #hantverk .round-button {
-    margin: 30px 0; }
   #hantverk .slide-1 .section-content {
     margin: 0 auto;
     display: block;
@@ -609,9 +610,6 @@ Helpers
   /*
    * High tech
    */
-  #high-tech .section-image {
-    width: 50%;
-    float: left; }
   #high-tech .section-content {
     margin-top: 130px;
     margin-left: 52.564102564103%;
@@ -702,6 +700,10 @@ Helpers
     #intro .title-br {
       margin-left: 0;
       margin-right: 0; }
+
+  #high-tech .section-image {
+    width: 50%;
+    float: left; }
 
   /* ==========================================================================
   Helpers

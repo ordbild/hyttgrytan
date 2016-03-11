@@ -179,6 +179,7 @@ p {
  * Slider
  */
 .slider {
+    font-size: 20px;
     .full-height {
         min-height: 480px;
     }
@@ -308,7 +309,7 @@ Header & meny
 .mobile-menu-icon {
     width: 30px;
     height: 30px;
-    background: url("../img/icons/icon-mobler.svg") no-repeat white;
+    background: url("../img/icons/icon-menu.svg") no-repeat white;
     border: none;
     text-indent: -9999px;
     &:focus {
@@ -453,6 +454,7 @@ Sektioner
 
     /* Slider */
     .slide-1 {
+        font-size: 16px;
         background-image: url('../img/slides/hantverk/hantverk-1.jpg');
         .section-content {
             text-align: center;

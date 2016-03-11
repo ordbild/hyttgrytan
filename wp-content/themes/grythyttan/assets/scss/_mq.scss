@@ -140,10 +140,10 @@
      * Hantverk
      */
     #hantverk {
-        .round-button {
-            margin: 30px 0; 
-        }
         .slide-1 {
+            .round-button {
+                //margin: 30px 0; 
+            }
             .section-content {
                 @include center-block;
                 margin-top: 105px;
@@ -164,10 +164,7 @@
      * High tech
      */
     #high-tech {
-        .section-image {
-            width: 50%;
-            float: left;
-        }
+        
         .section-content {
             margin-top: 130px;
             margin-left: 52.564102564103%;
@@ -290,6 +287,12 @@
         .title-br {
             margin-left: 0;
             margin-right: 0;
+        }
+    }
+    #high-tech {
+        .section-image {
+            width: 50%;
+            float: left;
         }
     }
 
