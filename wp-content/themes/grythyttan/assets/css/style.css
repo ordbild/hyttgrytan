@@ -210,7 +210,9 @@ Header & meny
  */
 .brand {
   display: inline-block;
-  display: block; }
+  display: block;
+  float: left;
+  width: 50%; }
   .brand:after {
     content: ".";
     display: block;
@@ -237,39 +239,65 @@ Header & meny
 /*
  * Menyn
  */
+.mobile-menu-icon-wrap {
+  margin-top: 22px;
+  float: right; }
+
+.mobile-menu-icon {
+  width: 30px;
+  height: 30px;
+  background: url("../img/icons/icon-mobler.svg") no-repeat white;
+  border: none;
+  text-indent: -9999px; }
+  .mobile-menu-icon:focus {
+    outline: 0; }
+
 .main-menu {
+  clear: both;
   display: none; }
+  .main-menu.open {
+    display: block; }
   .main-menu ul {
     margin: 0;
     padding: 0; }
-  .main-menu li {
+  .main-menu .main-menu-item {
     margin: 9px auto;
     max-width: 320px;
     display: block; }
-  .main-menu a {
-    padding: 14px 46px 10px 20px;
-    display: block;
-    font-size: 13px;
-    text-transform: uppercase;
-    background-repeat: no-repeat;
-    background-size: auto 18px;
-    background-position: right 20px center; }
-    .main-menu a.active, .main-menu a:hover {
-      color: white;
-      background-color: #9f9f9f; }
-  .main-menu .history {
-    padding: 14px 60px 10px 20px;
-    background-image: url("../img/icons/icon-flag.svg"); }
-    .main-menu .history:hover, .main-menu .history.active {
-      background-image: url("../img/icons/icon-flag-hover.svg"); }
-  .main-menu .reseller {
-    background-image: url("../img/icons/icon-marker.svg"); }
-    .main-menu .reseller:hover, .main-menu .reseller.active {
-      background-image: url("../img/icons/icon-marker-hover.svg"); }
-  .main-menu .furniture-series {
-    background-image: url("../img/icons/icon-mobler.svg"); }
-    .main-menu .furniture-series:hover, .main-menu .furniture-series.active {
-      background-image: url("../img/icons/icon-mobler-hover.svg"); }
+    .main-menu .main-menu-item a {
+      padding: 14px 46px 10px 20px;
+      display: block;
+      font-size: 13px;
+      text-transform: uppercase;
+      background-repeat: no-repeat;
+      background-size: auto 18px;
+      background-position: right 20px center; }
+      .main-menu .main-menu-item a.active, .main-menu .main-menu-item a:hover {
+        color: white;
+        background-color: #9f9f9f; }
+    .main-menu .main-menu-item .history {
+      padding: 14px 60px 10px 20px;
+      background-image: url("../img/icons/icon-flag.svg"); }
+      .main-menu .main-menu-item .history:hover, .main-menu .main-menu-item .history.active {
+        background-image: url("../img/icons/icon-flag-hover.svg"); }
+    .main-menu .main-menu-item .reseller {
+      background-image: url("../img/icons/icon-marker.svg"); }
+      .main-menu .main-menu-item .reseller:hover, .main-menu .main-menu-item .reseller.active {
+        background-image: url("../img/icons/icon-marker-hover.svg"); }
+    .main-menu .main-menu-item .furniture-series {
+      background-image: url("../img/icons/icon-mobler.svg"); }
+      .main-menu .main-menu-item .furniture-series:hover, .main-menu .main-menu-item .furniture-series.active {
+        background-image: url("../img/icons/icon-mobler-hover.svg"); }
+  .main-menu .social-media-icons {
+    margin-top: 18px;
+    float: none; }
+    .main-menu .social-media-icons ul {
+      text-align: center; }
+    .main-menu .social-media-icons li {
+      float: none;
+      display: inline; }
+    .main-menu .social-media-icons a {
+      text-decoration: none; }
 
 /* ==========================================================================
 Sektioner
@@ -575,7 +603,7 @@ Helpers
     display: block;
     margin-top: 25px;
     float: right; }
-    .main-menu li {
+    .main-menu .main-menu-item {
       margin: 0 3px;
       display: inline-block; }
 

@@ -9,8 +9,11 @@
                         <h1>{{series.name}}</h1>
                         <div class="title-br"></div>
                         {{ function('wpautop', series.description) }} 
-                        {% for plask in furniture_series %}
-                            <li>{{plask.name}}</li>
+                        
+                        {% for furniture_series in all_furniture_series %}
+                            {% if furniture_series.name != series.name %}
+                                <h2>{{furniture_series.name}}<h2>
+                            {% endif %}
                         {% endfor %}
                     </div>    
                     <div class="overview-category-products">

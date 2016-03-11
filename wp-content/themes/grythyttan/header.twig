@@ -23,29 +23,17 @@
                         <a href="{{site.link}}">
                             <picture>
                             <source type="image/svg+xml" srcset="{{theme.link}}/assets/img/grythyttan-logo.svg">
-                            <img src="{{theme.link}}/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
+                            <img srcset="{{theme.link}}/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
                             </picture>
                         </a>
                     </div>
-                    <div class="social-media-icons">
-                        <ul>
-                            <li class="social-media-icon icon-facebook">
-                                <a href="#">
-                                    <img src="{{theme.link}}/assets/img/icons/icon-fb-wo-box.svg" alt="Facebook">
-                                </a> 
-                            </li>
-                            <li class="social-media-icon icon-twitter">
-                                <a href="#">
-                                    <img src="{{theme.link}}/assets/img/icons/icon-twitter.svg" alt="Twitter">
-                                </a>    
-                            </li>
-                            <li class="social-media-icon icon-instagram">
-                                <a href="#">
-                                    <img src="{{theme.link}}/assets/img/icons/icon-instagram.svg" alt="Instagram">
-                                </a> 
-                            </li>
-                        </ul>
+                    <div class="social-media-icons hide-on-small">
+                        {% include 'partials/social-media-icons.twig' %}
                     </div>
+                </div>
+
+                <div class="mobile-menu-icon-wrap hide-on-large">
+                   <button id="mobile-menu-toggle" class="mobile-menu-icon">Meny</button> 
                 </div>
                 
                 <nav class="main-menu">
@@ -64,6 +52,9 @@
 
                         {% endfor %}
                     </ul>
+                    <div class="social-media-icons hide-on-large">
+                        {% include 'partials/social-media-icons.twig' %}
+                    </div>
                 </nav>
             </div>
             <div class="header-border"></div>

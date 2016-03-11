@@ -23,6 +23,12 @@
             }
         });
 
+        var $menu = $('nav.main-menu');
+        $('#mobile-menu-toggle').on('click', function (e) {
+            e.preventDefault();
+            $menu.toggleClass('open');
+        });
+
     });
 
 })(window, document, jQuery);

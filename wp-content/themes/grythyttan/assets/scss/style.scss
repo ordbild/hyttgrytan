@@ -259,6 +259,8 @@ Header & meny
 .brand {
     @include clearfix;
     display: block;
+    float: left;
+    width: 50%;
 }
 .logo,
 .social-media-icons {
@@ -283,50 +285,83 @@ Header & meny
 /*
  * Menyn
  */
+.mobile-menu-icon-wrap {
+    margin-top: 22px;
+    float: right;
+}
+.mobile-menu-icon {
+    width: 30px;
+    height: 30px;
+    background: url("../img/icons/icon-mobler.svg") no-repeat white;
+    border: none;
+    text-indent: -9999px;
+    &:focus {
+        outline: 0;
+    }
+}
 .main-menu {
+    clear: both;
     display: none;
+    &.open {
+        display: block;
+    }
     ul {
         @include reset;
     }
-    li {
+    .main-menu-item {
         margin: 9px auto;
         max-width: 320px;
         display: block;
-    }
-    a {
-        padding: 14px 46px 10px 20px;
-        display: block;
-        font-size: 13px;
-        text-transform: uppercase;
-        background-repeat: no-repeat;
-        background-size: auto 18px;
-        background-position: right 20px center;
-        &.active,
-        &:hover {
-            color: white;
-            background-color: $darkGrey;
+        a {
+            padding: 14px 46px 10px 20px;
+            display: block;
+            font-size: 13px;
+            text-transform: uppercase;
+            background-repeat: no-repeat;
+            background-size: auto 18px;
+            background-position: right 20px center;
+            &.active,
+            &:hover {
+                color: white;
+                background-color: $darkGrey;
+            }
+        }
+        .history {
+            padding: 14px 60px 10px 20px;
+            background-image: url('../img/icons/icon-flag.svg');
+            &:hover,
+            &.active {
+                background-image: url('../img/icons/icon-flag-hover.svg');
+            }
+        }
+        .reseller {
+            background-image: url('../img/icons/icon-marker.svg');
+            &:hover,
+            &.active {
+                background-image: url('../img/icons/icon-marker-hover.svg');
+            }
+        }
+        .furniture-series {
+            background-image: url('../img/icons/icon-mobler.svg');
+            &:hover,
+            &.active {
+                background-image: url('../img/icons/icon-mobler-hover.svg');
+            }
         }
     }
-    .history {
-        padding: 14px 60px 10px 20px;
-        background-image: url('../img/icons/icon-flag.svg');
-        &:hover,
-        &.active {
-            background-image: url('../img/icons/icon-flag-hover.svg');
+
+    .social-media-icons {
+        margin-top: 18px;
+        float: none;
+        ul {
+            text-align: center;
         }
-    }
-    .reseller {
-        background-image: url('../img/icons/icon-marker.svg');
-        &:hover,
-        &.active {
-            background-image: url('../img/icons/icon-marker-hover.svg');
+        li {
+            float: none;
+            display: inline;
         }
-    }
-    .furniture-series {
-        background-image: url('../img/icons/icon-mobler.svg');
-        &:hover,
-        &.active {
-            background-image: url('../img/icons/icon-mobler-hover.svg');
+        a {
+            text-decoration: none;
         }
     }
 }
