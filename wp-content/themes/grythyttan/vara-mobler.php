@@ -1,2 +1,4 @@
 <?php
-Timber::render('vara-mobler.twig', Timber::get_context());
+$context = Timber::get_context();
+$context['active_menu_item'] = 'vara-mobler';
+Timber::render('vara-mobler.twig', $context);

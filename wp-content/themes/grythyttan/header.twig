@@ -20,7 +20,7 @@
             <div class="inner clearfix">
                 <div class="brand">
                     <div class="logo">
-                        <a href="/">
+                        <a href="{{site.link}}">
                             <picture>
                             <source type="image/svg+xml" srcset="{{theme.link}}/assets/img/grythyttan-logo.svg">
                             <img src="{{theme.link}}/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
@@ -50,21 +50,19 @@
                 
                 <nav class="main-menu">
                     <ul>
-                        <li class="main-menu-item ">
-                            <a href="/" class="active button history">
-                                En svensk historia
-                            </a>
-                        </li>
-                        <li class="main-menu-item ">
-                            <a href="{{site.link}}/vara-mobler" class="button furniture-series">
-                                Våra möbler
-                            </a>
-                        </li>
-                        <li class="main-menu-item ">
-                            <a href="http://www.grythyttan.net/hitta-butik/" class="button reseller" target="_blank">
-                                Återförsäljare
-                            </a>
-                        </li>
+                        {% for menu_item in menu_items %}
+
+                            {% set classes = menu_item['classes'] %}
+                            {% if active_menu_item == menu_item['name'] %}
+                                {% set classes = 'active ' ~ classes %}
+                            {% endif %}
+                            <li class="main-menu-item">
+                                <a href="{{ menu_item['link'] }}" class="button {{ classes }}" target="{{ menu_item['target'] }}">
+                                    {{ menu_item['link_text'] }}
+                                </a>
+                            </li>
+
+                        {% endfor %}
                     </ul>
                 </nav>
             </div>

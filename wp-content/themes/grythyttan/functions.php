@@ -31,5 +31,6 @@ Timber::add_route('vara-mobler/:series', function( $params ) {
     $context = array();
     $context['series'] = $params['series'];
     $context['series_name'] = $series[$params['series']];
+    $context['active_menu_item'] = 'vara-mobler';
     Timber::load_template('mobelserie.php', null, 200, $context);
 });
