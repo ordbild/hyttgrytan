@@ -23,11 +23,11 @@ body.mobelserie {
   -o-background-size: cover;
   background-size: cover; }
 body.klassikerserien {
-  background: url("../img/bg-klassikerserien.jpg") no-repeat center center fixed; }
+  background: url("../img/bg-klassikerserien.jpg") no-repeat top center fixed; }
 body.high-tech {
-  background: url("../img/bg-hightech.jpg") no-repeat center center fixed; }
+  background: url("../img/bg-hightech.jpg") no-repeat top center fixed; }
 body.bryggeriserien {
-  background: url("../img/bg-bryggeriserien.jpg") no-repeat center center fixed; }
+  background: url("../img/bg-bryggeriserien.jpg") no-repeat top center fixed; }
 
 /*
  * Element
@@ -437,13 +437,12 @@ Sidor
 /*
  * Våra möbelserier
  */
-.overview {
-  margin-top: 150px; }
-  .overview h1 {
-    margin-top: 0;
-    color: white; }
-  .overview .title-br {
-    background: white; }
+.overview h1 {
+  margin-top: 0;
+  text-align: center;
+  color: white; }
+.overview .title-br {
+  background: white; }
 
 .overview-categories .title-br {
   margin-bottom: 0; }
@@ -452,23 +451,30 @@ Sidor
   color: white; }
 
 .overview-category-products {
-  display: inline-block;
-  margin-top: 88px; }
+  display: inline-block; }
   .overview-category-products:after {
     content: ".";
     display: block;
     height: 0;
     clear: both;
     visibility: hidden; }
-  .overview-category-products ul {
+  .overview-category-products .product-list {
     margin: 0;
-    padding: 0; }
-  .overview-category-products li {
-    width: 50%;
-    float: left;
-    display: block; }
-    .overview-category-products li .inner {
-      padding: 1px; }
+    padding: 0;
+    clear: both;
+    overflow: hidden; }
+    .overview-category-products .product-list li {
+      width: 50%;
+      float: left;
+      display: block; }
+      .overview-category-products .product-list li .inner {
+        padding: 1px; }
+      .overview-category-products .product-list li .product {
+        padding: 8px;
+        background-color: white; }
+      .overview-category-products .product-list li a {
+        color: black;
+        text-decoration: none; }
 
 /* ==========================================================================
 Footer
@@ -556,7 +562,7 @@ Helpers
   /*
    * Våra möbelserier
    */
-  .overview-category-products li {
+  .overview-category-products .product-list li {
     width: 33.333333%; } }
 @media (min-width: 768px) {
   /* ==========================================================================
@@ -631,6 +637,9 @@ Helpers
   /*
    * Våra möbelserier
    */
+  .overview h1 {
+    text-align: left; }
+
   .overview-category-description {
     margin-right: 2.564102564103%;
     width: 31.623931623932%;
@@ -639,8 +648,8 @@ Helpers
   .overview-category-products {
     width: 65.811965811966%;
     float: right; }
-    .overview-category-products li {
-      width: 24.545454545455%; } }
+    .overview-category-products .product-list li {
+      width: 25%; } }
 @media (min-width: 850px) {
   /* ==========================================================================
   Header & meny
@@ -750,7 +759,18 @@ Helpers
    * Intro
    */
   #intro .section-content {
-    margin-top: 230px; } }
+    margin-top: 230px; }
+
+  /* ==========================================================================
+  Sektioner
+  ========================================================================== */
+  .overview {
+    margin-top: 150px; }
+    .overview .column-3 {
+      width: 50%; }
+
+  .overview-category-products {
+    margin-top: 88px; } }
 @media (min-width: 1140px) {
   /* ==========================================================================
   Sektioner

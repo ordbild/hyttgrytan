@@ -13,4 +13,14 @@ $context['body_class'] = 'mobelserie ' . $params['series'];
 $context['active_menu_item'] = 'vara-mobler';
 $context['all_furniture_series'] = $furniture_series;
 $context['series'] = $series;
+$context['posts'] = Timber::get_posts( array(
+    'post_type' => 'produkter',
+    'tax_query' => array(
+        array(
+            'taxonomy' => 'produktserier',
+            'field' => 'slug',
+            'terms' => array($params['series'])
+        )
+    )
+) );
 Timber::render('mobelserie.twig', $context);

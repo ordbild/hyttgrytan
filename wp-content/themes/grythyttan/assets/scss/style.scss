@@ -49,13 +49,13 @@ body {
         background-size: cover;
     }
     &.klassikerserien {
-        background: url('../img/bg-klassikerserien.jpg') no-repeat center center fixed;
+        background: url('../img/bg-klassikerserien.jpg') no-repeat top center fixed;
     }
     &.high-tech {
-        background: url('../img/bg-hightech.jpg') no-repeat center center fixed;
+        background: url('../img/bg-hightech.jpg') no-repeat top center fixed;
     }
     &.bryggeriserien {
-        background: url('../img/bg-bryggeriserien.jpg') no-repeat center center fixed;
+        background: url('../img/bg-bryggeriserien.jpg') no-repeat top center fixed;
     }
 }
 
@@ -561,9 +561,9 @@ Sidor
  * Våra möbelserier
  */
 .overview {
-    margin-top: 150px;
     h1 {
         margin-top: 0;
+        text-align: center;
         color: white;
     }
     .title-br {
@@ -580,19 +580,29 @@ Sidor
 }
 .overview-category-products {
     @include clearfix;
-    margin-top: 88px;
-    ul {
+    .product-list {
         margin: 0;
         padding: 0;
-    }
-    li {
-        width: 50%;
-        float: left;
-        display: block;
-        .inner {
-            padding: 1px;
+        clear: both;
+        overflow: hidden;
+        li {
+            width: 50%;
+            float: left;
+            display: block;
+            .inner {
+                padding: 1px;
+            }
+            .product {
+                padding: 8px;
+                background-color: white;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
         }
     }
+    
 }
 
 /* ==========================================================================
