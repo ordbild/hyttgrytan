@@ -217,11 +217,9 @@ Grid
 
 .row {}
 .column-3 {
-    width: 33.333%;
-    float: left;
 }
 .inner-column {
-    padding: 0 1px;
+    padding: 1px;
 }
 
 /* ==========================================================================
@@ -387,10 +385,8 @@ Sektioner
 
 
 .section-content {
+    margin-top: 40px;
     width: 100%;
-    .title {
-        /*margin: 0;*/
-    }
     h1 {
         text-align: center;
     }
@@ -445,9 +441,6 @@ Sektioner
  */
 
 #hantverk {
-    .section-content {
-        margin-top: 40px;
-    }
     
     .round-button {
         margin: 30px auto 0;
@@ -488,11 +481,11 @@ Sektioner
 
 #high-tech {
     .section-image {
-        width: 50%;
+        width: 100%;
     }
-    .round-button {
-        position: relative;
-        top: 30px;
+    .button-wrap {
+        margin: 30px auto;
+        width: 90px;
     }
 }
 
@@ -526,6 +519,7 @@ Sektioner
         text-align: center;
     }
     h2 {
+        font-size: 25px;
         color: white;
     }
     p {
@@ -613,16 +607,18 @@ footer {
     position: relative;
     top: 130px;
     background-image: url('../img/made.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
     display: table-cell;
     vertical-align: middle;
     .logo {
-        margin-top: -200px;
+        //margin-top: -200px;
         float: none;
         font-size: 18px;
         text-align: center;
         img {
             @include center-block;
-            max-width: 300px;        
+            max-width: 190px;
             width: 100%;
         }
     }

@@ -167,12 +167,8 @@ p {
 /* ==========================================================================
 Grid
 ========================================================================== */
-.column-3 {
-  width: 33.333%;
-  float: left; }
-
 .inner-column {
-  padding: 0 1px; }
+  padding: 1px; }
 
 /* ==========================================================================
 Header & meny
@@ -318,9 +314,8 @@ Sektioner
   background: #ccc; }
 
 .section-content {
+  margin-top: 40px;
   width: 100%; }
-  .section-content .title {
-    /*margin: 0;*/ }
   .section-content h1 {
     text-align: center; }
   .section-content p {
@@ -360,8 +355,6 @@ Sektioner
  */
 #hantverk {
   /* Slider */ }
-  #hantverk .section-content {
-    margin-top: 40px; }
   #hantverk .round-button {
     margin: 30px auto 0;
     padding-top: 25px;
@@ -389,10 +382,10 @@ Sektioner
     background-image: url("../img/slides/hantverk/hantverk-5.jpg"); }
 
 #high-tech .section-image {
-  width: 50%; }
-#high-tech .round-button {
-  position: relative;
-  top: 30px; }
+  width: 100%; }
+#high-tech .button-wrap {
+  margin: 30px auto;
+  width: 90px; }
 
 #historia {
   background-image: url("../img/historia.jpg"); }
@@ -412,6 +405,7 @@ Sektioner
 #produktserier h1 {
   text-align: center; }
 #produktserier h2 {
+  font-size: 25px;
   color: white; }
 #produktserier p {
   color: white; }
@@ -487,17 +481,18 @@ footer {
   position: relative;
   top: 130px;
   background-image: url("../img/made.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
   display: table-cell;
   vertical-align: middle; }
   footer .logo {
-    margin-top: -200px;
     float: none;
     font-size: 18px;
     text-align: center; }
     footer .logo img {
       margin: 0 auto;
       display: block;
-      max-width: 300px;
+      max-width: 190px;
       width: 100%; }
 
 /* ==========================================================================
@@ -514,7 +509,24 @@ Helpers
 @media (min-height: 480px) {
   .slider .full-height {
     min-height: 100vh; } }
+@media (min-height: 600px) {
+  footer .logo {
+    margin-top: -200px; } }
+@media (min-height: 768px) {
+  footer .logo img {
+    max-width: 300px; } }
+@media (min-width: 400px) {
+  /* ==========================================================================
+  Sektioner
+  ========================================================================== */ }
 @media (min-width: 650px) {
+  /* ==========================================================================
+  Grid
+  ========================================================================== */
+  .column-3 {
+    width: 50%;
+    float: left; }
+
   /* ==========================================================================
   Globals
   ========================================================================== */
@@ -532,6 +544,11 @@ Helpers
    */
   #intro h1 {
     font-size: 46px; }
+
+  #produktserier h2 {
+    font-size: 35px; }
+  #produktserier .inner-column p {
+    display: block; }
 
   /* ==========================================================================
   Sidor
@@ -587,11 +604,14 @@ Helpers
    * High tech
    */
   #high-tech .section-image {
+    width: 50%;
     float: left; }
   #high-tech .section-content {
     margin-top: 130px;
     margin-left: 52.564102564103%;
     width: 48.717948717949%; }
+  #high-tech .button-wrap {
+    margin: 30px 0; }
 
   /*
    * Historia
@@ -683,6 +703,15 @@ Helpers
   .hide-on-large {
     display: none; } }
 @media (min-width: 1024px) {
+  /* ==========================================================================
+  Grid
+  ========================================================================== */
+  .column-3 {
+    width: 33.3333%; }
+
+  /* ==========================================================================
+  Globals
+  ========================================================================== */
   /*
    * Typografi
    */
