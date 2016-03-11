@@ -276,6 +276,9 @@ Header & meny
     display: block;
     float: left;
     width: 50%;
+    .social-media-icons {
+        display: none;
+    }
 }
 .logo,
 .social-media-icons {
@@ -328,7 +331,7 @@ Header & meny
         max-width: 320px;
         display: block;
         a {
-            padding: 14px 46px 10px 20px;
+            padding: 14px 20px 10px 20px;
             display: block;
             font-size: 13px;
             text-transform: uppercase;
@@ -341,28 +344,7 @@ Header & meny
                 background-color: $darkGrey;
             }
         }
-        .history {
-            padding: 14px 60px 10px 20px;
-            background-image: url('../img/icons/icon-flag.svg');
-            &:hover,
-            &.active {
-                background-image: url('../img/icons/icon-flag-hover.svg');
-            }
-        }
-        .reseller {
-            background-image: url('../img/icons/icon-marker.svg');
-            &:hover,
-            &.active {
-                background-image: url('../img/icons/icon-marker-hover.svg');
-            }
-        }
-        .furniture-series {
-            background-image: url('../img/icons/icon-mobler.svg');
-            &:hover,
-            &.active {
-                background-image: url('../img/icons/icon-mobler-hover.svg');
-            }
-        }
+        
     }
 
     .social-media-icons {

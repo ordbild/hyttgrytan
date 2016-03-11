@@ -132,10 +132,16 @@
     }
 }
 
-@media (min-width: 930px) {
+@media (min-width: 850px) {
 
+    /* ==========================================================================
+    Header & meny
+    ========================================================================== */
     .brand {
         float: left;
+        .social-media-icons {
+            display: block;
+        }
     }
 
     .main-menu {
@@ -147,17 +153,19 @@
             margin: 0 3px;
             display: inline-block;
         }
+        .social-media-icons {
+            display: none;
+        }
+    }
+    .mobile-menu-icon-wrap {
+        display: none;
     }
     .below-fixed-header {
         padding-top: 150px;
     }
 }
 
-@media (min-width: 1025px) {
-
-    .site-header {
-        position: fixed; 
-    }
+@media (min-width: 1024px) {
 
     /*
      * Typografi
@@ -165,6 +173,52 @@
     h1 {
         font-size: 50px;
     }
+
+    /* ==========================================================================
+    Header & meny
+    ========================================================================== */
+
+    .site-header {
+        position: fixed; 
+    }
+
+    /*
+     * Menyn
+     */
+    .main-menu {
+        .main-menu-item {
+            a {
+                padding: 14px 46px 10px 20px;
+            }
+            .history {
+                padding: 14px 60px 10px 20px;
+                background-image: url('../img/icons/icon-flag.svg');
+                &:hover,
+                &.active {
+                    background-image: url('../img/icons/icon-flag-hover.svg');
+                }
+            }
+            .reseller {
+                background-image: url('../img/icons/icon-marker.svg');
+                &:hover,
+                &.active {
+                    background-image: url('../img/icons/icon-marker-hover.svg');
+                }
+            }
+            .furniture-series {
+                background-image: url('../img/icons/icon-mobler.svg');
+                &:hover,
+                &.active {
+                    background-image: url('../img/icons/icon-mobler-hover.svg');
+                }
+            }
+        }
+    }
+    
+
+    /* ==========================================================================
+    Sektioner
+    ========================================================================== */
 
     /*
      * Intro

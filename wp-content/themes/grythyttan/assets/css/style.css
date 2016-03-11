@@ -232,6 +232,8 @@ Header & meny
     height: 0;
     clear: both;
     visibility: hidden; }
+  .brand .social-media-icons {
+    display: none; }
 
 .logo,
 .social-media-icons {
@@ -278,7 +280,7 @@ Header & meny
     max-width: 320px;
     display: block; }
     .main-menu .main-menu-item a {
-      padding: 14px 46px 10px 20px;
+      padding: 14px 20px 10px 20px;
       display: block;
       font-size: 13px;
       text-transform: uppercase;
@@ -288,19 +290,6 @@ Header & meny
       .main-menu .main-menu-item a.active, .main-menu .main-menu-item a:hover {
         color: white;
         background-color: #9f9f9f; }
-    .main-menu .main-menu-item .history {
-      padding: 14px 60px 10px 20px;
-      background-image: url("../img/icons/icon-flag.svg"); }
-      .main-menu .main-menu-item .history:hover, .main-menu .main-menu-item .history.active {
-        background-image: url("../img/icons/icon-flag-hover.svg"); }
-    .main-menu .main-menu-item .reseller {
-      background-image: url("../img/icons/icon-marker.svg"); }
-      .main-menu .main-menu-item .reseller:hover, .main-menu .main-menu-item .reseller.active {
-        background-image: url("../img/icons/icon-marker-hover.svg"); }
-    .main-menu .main-menu-item .furniture-series {
-      background-image: url("../img/icons/icon-mobler.svg"); }
-      .main-menu .main-menu-item .furniture-series:hover, .main-menu .main-menu-item .furniture-series.active {
-        background-image: url("../img/icons/icon-mobler-hover.svg"); }
   .main-menu .social-media-icons {
     margin-top: 18px;
     float: none; }
@@ -620,9 +609,14 @@ Helpers
 
   .hide-on-large {
     display: none; } }
-@media (min-width: 930px) {
+@media (min-width: 850px) {
+  /* ==========================================================================
+  Header & meny
+  ========================================================================== */
   .brand {
     float: left; }
+    .brand .social-media-icons {
+      display: block; }
 
   .main-menu {
     display: block;
@@ -632,19 +626,49 @@ Helpers
     .main-menu .main-menu-item {
       margin: 0 3px;
       display: inline-block; }
+    .main-menu .social-media-icons {
+      display: none; }
+
+  .mobile-menu-icon-wrap {
+    display: none; }
 
   .below-fixed-header {
     padding-top: 150px; } }
-@media (min-width: 1025px) {
-  .site-header {
-    position: fixed; }
-
+@media (min-width: 1024px) {
   /*
    * Typografi
    */
   h1 {
     font-size: 50px; }
 
+  /* ==========================================================================
+  Header & meny
+  ========================================================================== */
+  .site-header {
+    position: fixed; }
+
+  /*
+   * Menyn
+   */
+  .main-menu .main-menu-item a {
+    padding: 14px 46px 10px 20px; }
+  .main-menu .main-menu-item .history {
+    padding: 14px 60px 10px 20px;
+    background-image: url("../img/icons/icon-flag.svg"); }
+    .main-menu .main-menu-item .history:hover, .main-menu .main-menu-item .history.active {
+      background-image: url("../img/icons/icon-flag-hover.svg"); }
+  .main-menu .main-menu-item .reseller {
+    background-image: url("../img/icons/icon-marker.svg"); }
+    .main-menu .main-menu-item .reseller:hover, .main-menu .main-menu-item .reseller.active {
+      background-image: url("../img/icons/icon-marker-hover.svg"); }
+  .main-menu .main-menu-item .furniture-series {
+    background-image: url("../img/icons/icon-mobler.svg"); }
+    .main-menu .main-menu-item .furniture-series:hover, .main-menu .main-menu-item .furniture-series.active {
+      background-image: url("../img/icons/icon-mobler-hover.svg"); }
+
+  /* ==========================================================================
+  Sektioner
+  ========================================================================== */
   /*
    * Intro
    */
