@@ -74,6 +74,17 @@ section {
   background: #006539;
   color: white; }
 
+.grey-border {
+  border: 2px solid #9f9f9f; }
+  .grey-border:hover {
+    border: 2px solid #9f9f9f;
+    background: #9f9f9f;
+    color: white; }
+
+.grey-fill {
+  background: #9f9f9f;
+  color: white; }
+
 .white-fill {
   background: white;
   color: #006539; }
@@ -85,6 +96,8 @@ section {
   color: white; }
 .transparent-fill.green-border {
   color: #006539; }
+.transparent-fill.grey-border {
+  color: black; }
 
 /*
  * Typografi
@@ -522,6 +535,9 @@ Helpers
   .overview-category-products li {
     width: 33.333333%; } }
 @media (min-width: 769px) {
+  .brand {
+    width: auto; }
+
   /* ==========================================================================
   Sektioner
   ========================================================================== */
