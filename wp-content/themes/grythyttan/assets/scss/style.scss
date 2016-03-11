@@ -150,7 +150,7 @@ h1, h2 {
     font-weight: lighter;
 }
 h1 {
-    font-size: 45px;
+    font-size: 35px;
     line-height: 1.1;
 }
 h2 {
@@ -180,7 +180,7 @@ p {
  */
 .slider {
     .full-height {
-        min-height: 80vh;
+        min-height: 480px;
     }
     .title-br {
         background: white;
@@ -411,7 +411,7 @@ Sektioner
  */
 #intro {
     h1 {
-        font-size: 46px;
+        font-size: 36px;
     }
     .section-content {
         p {
@@ -446,11 +446,11 @@ Sektioner
 
 #hantverk {
     .section-content {
-        margin-top: 105px;
+        margin-top: 40px;
     }
     
     .round-button {
-        margin-top: 30px;
+        margin: 30px auto 0;
         padding-top: 25px;
         width: 70px;
         height: 45px;
@@ -462,8 +462,6 @@ Sektioner
     .slide-1 {
         background-image: url('../img/slides/hantverk/hantverk-1.jpg');
         .section-content {
-            @include center-block;
-            margin-top: 105px;
             text-align: center;
         }
         .round-button {
