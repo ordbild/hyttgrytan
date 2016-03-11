@@ -5993,6 +5993,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/grythyttan-post-type-produkter.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/grythyttan-post-type-produkter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10387,6 +10396,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/grythyttan\/acf-json\/group_56e27ac678974.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/acf-json\/group_56e27ac678974.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/acf-json\/group_56e27ac678974-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/wp-content\/themes\/grythyttan\/assets\/css\/boilerplate.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -10423,13 +10443,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/grythyttan\/assets\/img\/background-klassikerserien.jpg": {
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/bg-bryggeriserien.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 266785,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/background-klassikerserien.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/background-klassikerserien.jpg",
+		"initialSize": 324408,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-bryggeriserien.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-bryggeriserien.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/bg-hightech.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265512,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-hightech.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-hightech.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/bg-klassikerserien.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204355,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-klassikerserien.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-klassikerserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10438,7 +10480,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 292581,
+		"initialSize": 286839,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bryggeriserien.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bryggeriserien.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -10471,7 +10513,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 285819,
+		"initialSize": 280838,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/high-tech.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/high-tech.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -10526,9 +10568,53 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 201085,
+		"initialSize": 198129,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/klassikerserien.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/klassikerserien.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/made.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128708,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/made.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/made.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/mo-bryggeriserien.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51207,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-bryggeriserien.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-bryggeriserien.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/mo-hightech.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72692,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-hightech.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-hightech.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/mo-klassikerserien.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106332,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-klassikerserien.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-klassikerserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10588,13 +10674,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp-content\/themes\/grythyttan\/assets\/img\/start.jpg": {
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/start-large.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 167341,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start.jpg",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start-large.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/start-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173112,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start-medium.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start-medium.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -10778,29 +10875,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/grythyttan\/footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/footer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-content\/themes\/grythyttan\/functions.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/functions.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/themes\/grythyttan\/header.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/header.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10868,11 +10947,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-content\/themes\/grythyttan\/mobelserier.php": {
+	"\/wp-content\/themes\/grythyttan\/mobelserie.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/mobelserier.php",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/mobelserie.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10912,6 +10991,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/test.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/vara-mobler.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/vara-mobler.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -12106,6 +12194,50 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4821,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-300x300.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11203,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-300x300.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-300x300.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-480x480.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21025,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-480x480.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-480x480.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18764,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
 		"fileType": 8192,

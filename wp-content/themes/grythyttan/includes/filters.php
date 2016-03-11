@@ -20,7 +20,7 @@ function add_menu_to_timber( $context ) {
         ),
         array(
             'name' => 'reseller',
-            'link' => '',
+            'link' => 'http://www.grythyttan.net/hitta-butik/',
             'classes' => 'reseller',
             'link_text' => 'Återförsäljare',
             'target' => '_blank'
