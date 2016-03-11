@@ -12,13 +12,15 @@ function create_post_type_produkter()
         ),
         'public' => true,
         'supports' => array( 'title' ),
-        'menu_icon' => 'dashicons-cart'
+        'menu_icon' => 'dashicons-cart',
+        'supports' => array('title', 'thumbnail')
     ) );
 
     register_taxonomy( 'produktserier', 'produkter', array(
         'label' => 'Produktserier',
         'public' => false,
-        'show_ui' => true 
+        'show_ui' => true, 
+        'hierarchical' => true,
     ) );
 }
 
