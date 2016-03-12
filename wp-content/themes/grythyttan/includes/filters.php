@@ -8,21 +8,21 @@ function add_menu_to_timber( $context ) {
             'name' => 'home',
             'link' => $site_url,
             'classes' => 'history',
-            'link_text' => 'En svensk historia',
+            'link_text' => 'En svensk historie',
             'target' => '_self'
         ),
         array(
             'name' => 'vara-mobler',
             'link' => $site_url . '/vara-mobler',
             'classes' => 'furniture-series',
-            'link_text' => 'Våra möbler',
+            'link_text' => 'Våre møbler',
             'target' => '_self'
         ),
         array(
             'name' => 'reseller',
             'link' => 'http://www.grythyttan.net/hitta-butik/',
             'classes' => 'reseller',
-            'link_text' => 'Återförsäljare',
+            'link_text' => 'Forhandler',
             'target' => '_blank'
         ),
     );
