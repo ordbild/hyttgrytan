@@ -3,6 +3,12 @@
     
     $(document).ready(function(){
 
+        FontFaceOnload('HelveticaNeueLTStd-Lt', {
+            success: function () {
+                document.documentElement.className += 'helvetica-neue';
+            },
+        });
+
         $('.slider').slick({
             arrows: false,
             slidesToShow: 1,

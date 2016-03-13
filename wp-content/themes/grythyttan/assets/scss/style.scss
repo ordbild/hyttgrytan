@@ -141,9 +141,13 @@ section {
  * Typografi
  */
 body {
-    font-family: HelveticaNeueLTStd-Lt;
+    font-family: sans-serif;
     font-weight: normal;
     font-style: normal;
+    
+}
+.helvetica-neue body {
+    font-family: HelveticaNeueLTStd-Lt;
 }
 h1, h2 {
     color: $green;
@@ -621,6 +625,7 @@ footer {
     background-image: url('../img/made.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
+    background-size: cover;
     display: table-cell;
     vertical-align: middle;
     .logo {

@@ -15,6 +15,7 @@ $context['all_furniture_series'] = $furniture_series;
 $context['series'] = $series;
 $context['posts'] = Timber::get_posts( array(
     'post_type' => 'produkter',
+    'posts_per_page' => -1,
     'tax_query' => array(
         array(
             'taxonomy' => 'produktserier',

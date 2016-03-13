@@ -1,0 +1,102 @@
+html, body{ height: 100%; }
+img{ max-width: 100%; height: auto; }
+section{ overflow: hidden; position: relative; }
+.button{ padding: 13px 20px 10px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; display: inline-block; border: 2px solid rgb(159, 159, 159); font-size: 15px; text-decoration: none; line-height: 1; color: black; }
+.round-button{ font-size: 15px; width: 90px; height: 90px; border-top-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 100px; border-bottom-left-radius: 100px; display: table-cell; line-height: 1; vertical-align: middle; text-align: center; text-decoration: none; transition: all 0.2s; -webkit-transition: all 0.2s; }
+.green-border{ border: 2px solid rgb(0, 101, 57); }
+.green-fill{ background-color: rgb(0, 101, 57); color: white; background-position: initial initial; background-repeat: initial initial; }
+.grey-border{ border: 2px solid rgb(159, 159, 159); }
+.transparent-fill.grey-border{ color: black; }
+body{ font-family: HelveticaNeueLTStd-Lt; font-weight: normal; font-style: normal; }
+h1{ color: rgb(0, 101, 57); font-weight: lighter; }
+h1{ font-size: 35px; line-height: 1.1; }
+p{ font-weight: lighter; }
+.site-width{ margin: 0px auto; display: block; max-width: 1170px; width: 95%; position: relative; }
+.full-height{ min-height: 100vh; }
+.slider{ font-size: 20px; }
+.slider .full-height{ min-height: 480px; }
+.site-header{ display: inline-block; width: 100%; background-color: white; z-index: 2; transition: background 0.2s; -webkit-transition: background 0.2s; background-position: initial initial; background-repeat: initial initial; }
+.site-header::after{ content: '.'; display: block; height: 0px; clear: both; visibility: hidden; }
+.site-header .inner{ margin: 0px auto; display: block; width: 95%; }
+.site-header .logo{ margin-right: 20px; }
+.site-header .logo img{ margin: 18px 0px; max-width: 180px; width: 100%; }
+.site-header .header-border{ display: none; position: relative; bottom: -1px; width: 100%; height: 1px; background-color: black; opacity: 0.1; background-position: initial initial; background-repeat: initial initial; }
+.home .site-header{ background-image: none; background-position: initial initial; background-repeat: initial initial; }
+.brand{ display: block; float: left; width: 50%; }
+.brand::after{ content: '.'; display: block; height: 0px; clear: both; visibility: hidden; }
+.brand .social-media-icons{ display: none; }
+.logo, .social-media-icons{ float: left; }
+.social-media-icons{ margin-top: 35px; }
+.social-media-icons ul{ margin: 0px; padding: 0px; }
+.social-media-icons li{ margin: 0px 10px; display: block; float: left; }
+.social-media-icons img{ height: 18px; }
+.mobile-menu-icon-wrap{ margin-top: 22px; float: right; }
+.mobile-menu-icon{ width: 30px; height: 30px; background-image: url(../img/icons/icon-menu.svg); background-color: white; border: none; text-indent: -9999px; background-position: initial initial; background-repeat: no-repeat no-repeat; }
+.main-menu{ clear: both; display: none; }
+.main-menu ul{ margin: 0px; padding: 0px; }
+.main-menu .main-menu-item{ margin: 9px auto; max-width: 320px; display: block; }
+.main-menu .main-menu-item a{ padding: 14px 20px 10px; display: block; font-size: 13px; text-transform: uppercase; background-size: auto 18px; background-position: right 20px top 50%; background-repeat: no-repeat no-repeat; }
+.main-menu .main-menu-item a.active{ color: white; background-color: rgb(159, 159, 159); }
+.main-menu .social-media-icons{ margin-top: 18px; float: none; }
+.main-menu .social-media-icons ul{ text-align: center; }
+.main-menu .social-media-icons li{ float: none; display: inline; }
+.main-menu .social-media-icons a{ text-decoration: none; }
+.has-background{ background-size: cover; background-position: 50% 50%; }
+.title-br{ margin: 24px auto 30px; width: 100px; height: 2px; background-color: rgb(204, 204, 204); background-position: initial initial; background-repeat: initial initial; }
+.section-content{ margin-top: 40px; width: 100%; }
+.section-content h1{ text-align: center; }
+.section-content p{ margin: 0px; text-align: center; }
+#intro h1{ font-size: 36px; }
+#intro .section-content p{ margin-bottom: 30px; text-align: center; }
+#intro .section-content .round-button{ width: 100px; height: 87px; padding-top: 13px; }
+#intro .title-br{ margin-left: auto; margin-right: auto; }
+#intro .floating-button{ position: absolute; top: 50vh; margin-top: -50px; width: 100%; }
+#intro .floating-button .button-wrap{ position: absolute; right: 0px; }
+#hantverk{ }
+#hantverk .slide-1{ font-size: 16px; background-image: url(../img/slides/hantverk/hantverk-1.jpg); }
+#hantverk .slide-2{ background-image: url(../img/slides/hantverk/hantverk-2.jpg); }
+#hantverk .slide-3{ background-image: url(../img/slides/hantverk/hantverk-3.jpg); }
+#hantverk .slide-4{ background-image: url(../img/slides/hantverk/hantverk-4.jpg); }
+#hantverk .slide-5{ background-image: url(../img/slides/hantverk/hantverk-5.jpg); }
+.hide-on-small{ display: none; }
+@media (min-height: 480px){
+.slider .full-height{ min-height: 100vh; }
+}
+@media (min-width: 650px){
+h1{ font-size: 45px; }
+#intro h1{ font-size: 46px; }
+}
+@media (min-width: 768px){
+.slider .full-height{ min-height: 80vh; }
+.brand{ width: auto; }
+.section-content{ margin: 0px auto; width: 70%; }
+}
+@media (min-width: 850px){
+.brand{ float: left; }
+.brand .social-media-icons{ display: block; }
+.main-menu{ display: block; clear: none; margin-top: 25px; float: right; }
+.main-menu .main-menu-item{ margin: 0px 3px; display: inline-block; }
+.main-menu .social-media-icons{ display: none; }
+.mobile-menu-icon-wrap{ display: none; }
+.title-br{ margin: 24px 0px 30px; }
+.section-content{ margin: 0px; width: 40.17094017094%; }
+.section-content h1, .section-content p{ text-align: left; }
+#intro{ background-image: url(../img/start-large.jpg); }
+#intro .section-content p{ text-align: left; }
+#intro .title-br{ margin-left: 0px; margin-right: 0px; }
+.hide-on-small{ display: block; }
+.hide-on-large{ display: none; }
+}
+@media (min-width: 1024px){
+h1{ font-size: 50px; }
+.site-header{ position: fixed; }
+.main-menu .main-menu-item a{ padding: 14px 46px 10px 20px; }
+.main-menu .main-menu-item .history{ padding: 14px 60px 10px 20px; background-image: url(../img/icons/icon-flag.svg); }
+ .main-menu .main-menu-item .history.active{ background-image: url(../img/icons/icon-flag-hover.svg); }
+.main-menu .main-menu-item .reseller{ background-image: url(../img/icons/icon-marker.svg); }
+.main-menu .main-menu-item .furniture-series{ background-image: url(../img/icons/icon-mobler.svg); }
+#intro .section-content{ margin-top: 230px; }
+}
+@media (min-width: 1140px){
+#intro h1{ font-size: 56px; }
+}

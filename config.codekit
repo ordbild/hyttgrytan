@@ -4272,15 +4272,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-config-sample.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-config-sample.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-config.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5993,11 +5984,170 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/plugins\/akismet\/_inc\/akismet.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/_inc\/akismet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/_inc\/akismet.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/_inc\/akismet.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/_inc\/min\/akismet-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/akismet\/_inc\/form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/_inc\/form.js",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/_inc\/min\/form-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/plugins\/akismet\/_inc\/img\/logo-full-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4970,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/_inc\/img\/logo-full-2x.png",
+		"outputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/_inc\/img\/logo-full-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/plugins\/akismet\/akismet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/akismet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/class.akismet-admin.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/class.akismet-admin.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/class.akismet-widget.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/class.akismet-widget.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/class.akismet.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/class.akismet.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/views\/config.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/views\/config.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/views\/get.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/views\/get.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/views\/notice.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/views\/notice.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/views\/start.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/views\/start.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/views\/stats.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/views\/stats.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/views\/strict.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/views\/strict.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/akismet\/wrapper.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/akismet\/wrapper.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/plugins\/grythyttan-post-type-produkter.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/grythyttan-post-type-produkter.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/hello.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/hello.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10416,6 +10566,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/grythyttan\/assets\/css\/critical.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/critical.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/grythyttan\/assets\/css\/fonts.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -10434,11 +10593,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/grythyttan\/assets\/css\/slick.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/slick.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/grythyttan\/assets\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/css\/style.min.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/style.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -10452,7 +10629,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-bryggeriserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/bg-hightech.jpg": {
 		"fileType": 16384,
@@ -10463,7 +10640,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-hightech.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/bg-klassikerserien.jpg": {
 		"fileType": 16384,
@@ -10474,7 +10651,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bg-klassikerserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/bryggeriserien.jpg": {
 		"fileType": 16384,
@@ -10485,7 +10662,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/bryggeriserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/exempel-produktgrid.jpg": {
 		"fileType": 16384,
@@ -10496,7 +10673,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/exempel-produktgrid.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/grythyttan-logo.png": {
 		"fileType": 32768,
@@ -10507,7 +10684,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/grythyttan-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/high-tech.jpg": {
 		"fileType": 16384,
@@ -10518,7 +10695,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/high-tech.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/historia.jpg": {
 		"fileType": 16384,
@@ -10529,7 +10706,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/historia.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/icons\/facebook.png": {
 		"fileType": 32768,
@@ -10573,7 +10750,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/klassikerserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/made.jpg": {
 		"fileType": 16384,
@@ -10584,7 +10761,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/made.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/mo-bryggeriserien.jpg": {
 		"fileType": 16384,
@@ -10595,7 +10772,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-bryggeriserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/mo-hightech.jpg": {
 		"fileType": 16384,
@@ -10606,7 +10783,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-hightech.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/mo-klassikerserien.jpg": {
 		"fileType": 16384,
@@ -10617,7 +10794,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/mo-klassikerserien.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/slides\/hantverk\/hantverk-1.jpg": {
 		"fileType": 16384,
@@ -10683,7 +10860,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start-large.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/start-medium.jpg": {
 		"fileType": 16384,
@@ -10694,7 +10871,7 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/start-medium.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech.jpg": {
 		"fileType": 16384,
@@ -10705,14 +10882,36 @@
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/js\/app.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/app.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/cssrelpreload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/cssrelpreload.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/cssrelpreload-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/fontfaceonload.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/fontfaceonload.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/fontfaceonload-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -10720,10 +10919,43 @@
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.hitstop.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.hitstop.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/jquery.hitstop-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/loadCSS.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/loadCSS.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/loadCSS-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/loadJS.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/loadJS.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/loadJS-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -10735,6 +10967,83 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/app-min.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/app-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/min\/cssrelpreload-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/cssrelpreload-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/cssrelpreload-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/min\/fontfaceonload-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/fontfaceonload-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/fontfaceonload-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/min\/loadCSS-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/loadCSS-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/loadCSS-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/min\/loadJS-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/loadJS-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/loadJS-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/min\/picturefill-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/picturefill-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/picturefill-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/min\/scripts-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/scripts-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/scripts-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/min\/scripts.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/scripts.min-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/min\/scripts.min-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -10753,10 +11062,32 @@
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/js\/picturefill.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/picturefill.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/picturefill-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/slick.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/slick.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/slick.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -10832,7 +11163,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/scss\/boilerplate.scss",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/boilerplate.css",
@@ -10848,7 +11179,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/scss\/normalize.scss",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/normalize.css",
@@ -10859,12 +11190,44 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/wp-content\/themes\/grythyttan\/assets\/scss\/style.scss": {
+	"\/wp-content\/themes\/grythyttan\/assets\/scss\/slick.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/scss\/slick.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/slick.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/scss\/style.min.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/scss\/style.min.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/style.min.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/scss\/style.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/scss\/style.scss",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/css\/style.css",
@@ -12191,59 +12554,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/twentysixteen\/template-parts\/content.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-150x150.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4821,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-150x150.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-150x150.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-300x300.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11203,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-300x300.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-300x300.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-480x480.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21025,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-480x480.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500-480x480.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18764,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500.jpg",
-		"outputAbbreviatedPath": "\/wp-content\/uploads\/2016\/03\/bryggerisoffa_vit_500x500.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -18128,6 +18438,44 @@
 	],
 "lastSavedByUser": "Stefan Ledin",
 "manualImportLinks": {
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/scripts.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/slick.min.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.hitstop.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/picturefill.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/fontfaceonload.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/app.js",
+			"position": 5,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
