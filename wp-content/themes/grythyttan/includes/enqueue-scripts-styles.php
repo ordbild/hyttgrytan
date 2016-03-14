@@ -23,9 +23,10 @@ function get_stylesheets() {
         $stylesheets[] = $assetsDir . '/css/normalize.css';    
         $stylesheets[] = $assetsDir . '/css/boilerplate.css';    
         $stylesheets[] = $assetsDir . '/css/slick.css';
+        $stylesheets[] = $assetsDir . '/css/jquery.lazyloadxt.fadein.min.css';
         $stylesheets[] = $assetsDir . '/css/style.css';
     } else {
-        $stylesheets[] = $assetsDir . '/css/style.min.css';
+        $stylesheets[] = $assetsDir . '/css/style.min.css?ver=20160314';
     }
 
     $link_tags = array();
@@ -65,6 +66,7 @@ function get_scripts()
         $scripts[] = $assetsDir . '/js/picturefill.js';
         $scripts[] = $assetsDir . '/js/fontfaceonload.js';
         $scripts[] = $assetsDir . '/js/slick.min.js';
+        $scripts[] = $assetsDir . '/js/jquery.lazyloadxt.js';
         $scripts[] = $assetsDir . '/js/app.js';
     } else {
         $scripts[] = $assetsDir . '/js/min/scripts-min.js';

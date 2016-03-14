@@ -7,7 +7,7 @@
 }
 
 @media (min-height: 600px) {
-    footer {
+        .footer-background {
         .logo {
             margin-top: -200px;
         }
@@ -15,7 +15,7 @@
 }
 
 @media (min-height: 768px) {
-    footer {
+    .footer-background {
         .logo {
             img {
                 max-width: 300px;

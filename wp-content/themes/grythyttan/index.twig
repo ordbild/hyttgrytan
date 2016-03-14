@@ -29,6 +29,7 @@
         </div>
     </section> 
     
+    <div id="lazyload-slider"></div>
     <section id="hantverk">
         <div class="slider">
             <div class="slide slide-1 full-height has-background">
@@ -87,7 +88,7 @@
 
     <section id="high-tech" class="full-height">
         <div class="section-image">
-            <img src="{{theme.link}}/assets/img/stol-hightech.jpg">
+            <img data-src="{{theme.link}}/assets/img/stol-hightech.jpg">
         </div>
         <div class="site-width">
             <div class="inner">
@@ -119,14 +120,16 @@
 
     {% include 'partials/produktserier.twig' %} 
 
-    <footer>
-        <div class="logo">
-            <picture>
-            <source type="image/svg+xml" srcset="{{theme.link}}/assets/img/grythyttan-logo.svg">
-            <img srcset="{{theme.link}}/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
-            </picture>
-            <p>En svensk historie – nå i Norge</p>
+    <section>
+        <div class="footer-background">
+            <div class="logo">
+                <picture>
+                <source type="image/svg+xml" srcset="{{theme.link}}/assets/img/grythyttan-logo.svg">
+                <img srcset="{{theme.link}}/assets/img/grythyttan-logo.png" alt="Grythyttan stålmöbler">
+                </picture>
+                <p>En svensk historie – nå i Norge</p>
+            </div>
         </div>
-    </footer>
+    </section>
 
 {% endblock %}

@@ -42,20 +42,23 @@ html, body {
     height: 100%;
 }
 body {
+    &.klassikerserien {
+        background-image: url('../img/bg-klassikerserien.jpg');
+    }
+    &.high-tech {
+        background-image: url('../img/bg-hightech.jpg');
+    }
+    &.bryggeriserien {
+        background-image: url('../img/bg-bryggeriserien.jpg');
+    }
     &.mobelserie {
+        background-position: top center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
-    &.klassikerserien {
-        background: url('../img/bg-klassikerserien.jpg') no-repeat top center fixed;
-    }
-    &.high-tech {
-        background: url('../img/bg-hightech.jpg') no-repeat top center fixed;
-    }
-    &.bryggeriserien {
-        background: url('../img/bg-bryggeriserien.jpg') no-repeat top center fixed;
     }
 }
 
@@ -440,6 +443,35 @@ Sektioner
         }
     }
 }
+/* Effekter */
+/*#intro {
+    h1,
+    .title-br,
+    p,
+    .section-content .round-button {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all .5s;
+    }
+
+}
+.loaded {
+    #intro {
+        h1,
+        .title-br,
+        p, 
+        .section-content .round-button {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        p {
+            transition-delay: .3s;
+        }
+        .section-content .round-button {
+            transition-delay: .6s;
+        }
+    }
+}*/
 
 /*
  * Hantverk
@@ -615,7 +647,7 @@ Sidor
 Footer
 ========================================================================== */
 
-footer {
+.footer-background {
     margin: 0 0 20px 0;
     width: 100vw;
     height: 80vh;
@@ -640,7 +672,17 @@ footer {
         }
     }
 }
-
+    
+.contact-info {
+    margin: 20px 0 0 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    background-color: white;
+    a {
+        color: $green;
+        text-decoration: none;
+    }
+}
 
 
 /* ==========================================================================

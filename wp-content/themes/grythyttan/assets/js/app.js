@@ -3,6 +3,8 @@
     
     $(document).ready(function(){
 
+        document.documentElement.className += 'loaded ';
+
         FontFaceOnload('HelveticaNeueLTStd-Lt', {
             success: function () {
                 document.documentElement.className += 'helvetica-neue';
@@ -42,6 +44,10 @@
                 scrollTop: $target.offset().top 
             }, 500);
         });
+
+        $('#lazyload-slider').on('lazyshow', function () {
+           console.log('lazyshow'); 
+        }).lazyLoadXT({visibleOnly: false});
 
     });
 

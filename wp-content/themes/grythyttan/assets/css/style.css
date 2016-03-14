@@ -17,17 +17,20 @@ Globals
 html, body {
   height: 100%; }
 
+body.klassikerserien {
+  background-image: url("../img/bg-klassikerserien.jpg"); }
+body.high-tech {
+  background-image: url("../img/bg-hightech.jpg"); }
+body.bryggeriserien {
+  background-image: url("../img/bg-bryggeriserien.jpg"); }
 body.mobelserie {
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-body.klassikerserien {
-  background: url("../img/bg-klassikerserien.jpg") no-repeat top center fixed; }
-body.high-tech {
-  background: url("../img/bg-hightech.jpg") no-repeat top center fixed; }
-body.bryggeriserien {
-  background: url("../img/bg-bryggeriserien.jpg") no-repeat top center fixed; }
 
 /*
  * Element
@@ -103,9 +106,12 @@ section {
  * Typografi
  */
 body {
-  font-family: HelveticaNeueLTStd-Lt;
+  font-family: sans-serif;
   font-weight: normal;
   font-style: normal; }
+
+.helvetica-neue body {
+  font-family: HelveticaNeueLTStd-Lt; }
 
 h1, h2 {
   color: #006539;
@@ -352,6 +358,35 @@ Sektioner
     position: absolute;
     right: 0; }
 
+/* Effekter */
+/*#intro {
+    h1,
+    .title-br,
+    p,
+    .section-content .round-button {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all .5s;
+    }
+
+}
+.loaded {
+    #intro {
+        h1,
+        .title-br,
+        p, 
+        .section-content .round-button {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        p {
+            transition-delay: .3s;
+        }
+        .section-content .round-button {
+            transition-delay: .6s;
+        }
+    }
+}*/
 /*
  * Hantverk
  */
@@ -482,7 +517,7 @@ Sidor
 /* ==========================================================================
 Footer
 ========================================================================== */
-footer {
+.footer-background {
   margin: 0 0 20px 0;
   width: 100vw;
   height: 80vh;
@@ -495,15 +530,24 @@ footer {
   background-size: cover;
   display: table-cell;
   vertical-align: middle; }
-  footer .logo {
+  .footer-background .logo {
     float: none;
     font-size: 18px;
     text-align: center; }
-    footer .logo img {
+    .footer-background .logo img {
       margin: 0 auto;
       display: block;
       max-width: 190px;
       width: 100%; }
+
+.contact-info {
+  margin: 20px 0 0 0;
+  padding: 0 0 20px 0;
+  text-align: center;
+  background-color: white; }
+  .contact-info a {
+    color: #006539;
+    text-decoration: none; }
 
 /* ==========================================================================
 Helpers
@@ -520,10 +564,10 @@ Helpers
   .slider .full-height {
     min-height: 100vh; } }
 @media (min-height: 600px) {
-  footer .logo {
+  .footer-background .logo {
     margin-top: -200px; } }
 @media (min-height: 768px) {
-  footer .logo img {
+  .footer-background .logo img {
     max-width: 300px; } }
 @media (min-width: 400px) {
   /* ==========================================================================
