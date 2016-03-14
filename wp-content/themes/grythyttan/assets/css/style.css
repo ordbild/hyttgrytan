@@ -359,34 +359,27 @@ Sektioner
     right: 0; }
 
 /* Effekter */
-/*#intro {
-    h1,
-    .title-br,
-    p,
-    .section-content .round-button {
-        opacity: 0;
-        transform: translateY(50px);
-        transition: all .5s;
-    }
+.fade-in {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all .5s; }
 
-}
-.loaded {
-    #intro {
-        h1,
-        .title-br,
-        p, 
-        .section-content .round-button {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        p {
-            transition-delay: .3s;
-        }
-        .section-content .round-button {
-            transition-delay: .6s;
-        }
-    }
-}*/
+.move-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.5s; }
+
+.begin-animation .fade-in {
+  opacity: 1;
+  transform: translateY(0); }
+.begin-animation .step-2 {
+  transition-delay: .3s; }
+.begin-animation .step-3 {
+  transition-delay: .6s; }
+.begin-animation .move-up {
+  opacity: 1;
+  transform: translateY(0); }
+
 /*
  * Hantverk
  */
@@ -400,8 +393,7 @@ Sektioner
     display: block;
     font-size: 25px; }
   #hantverk .slide-1 {
-    font-size: 16px;
-    background-image: url("../img/slides/hantverk/hantverk-1.jpg"); }
+    font-size: 16px; }
     #hantverk .slide-1 .section-content {
       text-align: center; }
     #hantverk .slide-1 .round-button {
@@ -426,7 +418,7 @@ Sektioner
   width: 90px; }
 
 #historia {
-  background-image: url("../img/historia.jpg"); }
+  /* background-image: url('../img/historia.jpg');*/ }
 
 #produktserier .inner-column:hover h2 {
   color: #006539; }
@@ -524,7 +516,6 @@ Footer
   min-height: 400px;
   position: relative;
   top: 130px;
-  background-image: url("../img/made.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;

@@ -4,11 +4,11 @@
         <div class="site-width">
             <div class="inner">
                 <div class="section-content">
-                    <h1 class="title">En svensk historie<br>– nå i Norge.</h1>
-                    <div class="title-br"></div>
-                    <p>Vårt gyngende håndverk har vært en selvsagt del av den svenske sommeren i over åtti år – og nå synes vi at møblene er klare for Norge.</p>
+                    <h1 class="title fade-in">En svensk historie<br>– nå i Norge.</h1>
+                    <div class="title-br fade-in"></div>
+                    <p class="fade-in step-2">Vårt gyngende håndverk har vært en selvsagt del av den svenske sommeren i over åtti år – og nå synes vi at møblene er klare for Norge.</p>
                     <div class="hide-on-small">
-                        <a class="round-button green-fill green-border js-slide-to-section" href="#hantverk">
+                        <a class="round-button green-fill green-border js-slide-to-section fade-in step-3" href="#hantverk">
                             Oppdage<br>mer<br>&#8595;
                         </a>
                     </div>
@@ -32,14 +32,15 @@
     <div id="lazyload-slider"></div>
     <section id="hantverk">
         <div class="slider">
-            <div class="slide slide-1 full-height has-background">
+            <div class="slide slide-1 full-height has-background" data-bg="{{theme.link}}/assets/img/slides/hantverk/hantverk-1.jpg">
                 <div class="site-width">
                     <div class="inner">
                         <div class="section-content on-background">
-                            <h1 class="title">Følelse og tradisjon.</h1>
-                            <div class="title-br center-block"></div>
-                            <p>En enkel, naturlig og tidløs form. Hver detalj er viktig og gjennomarbeidet. Det er den rene og solide følelsen vi vil formidle i alt vi gjør. Og bringe videre til alle vi møter. </p>    
-                            <a class="round-button green-fill green-border js-next-slide" href="#">Les mer<br>&#8594;</a>
+                            <h1 class="title fade-in">Følelse og tradisjon.</h1>
+                            <div class="title-br center-block fade-in"></div>
+                            <p class="fade-in step-2">En enkel, naturlig og tidløs form. Hver detalj er viktig og gjennomarbeidet. Det er den rene og solide følelsen vi vil formidle i alt vi gjør. Og bringe videre til alle vi møter. </p>    
+                            <a class="round-button green-fill green-border js-next-slide fade-in step-3" href="#">Les mer<br>&#8594;</a>
+                            <div class="js-animation-trigger" data-animate="hantverk"></div>
                         </div>
                     </div>    
                 </div><!-- site-width --> 
@@ -88,16 +89,16 @@
 
     <section id="high-tech" class="full-height">
         <div class="section-image">
-            <img data-src="{{theme.link}}/assets/img/stol-hightech.jpg">
+            <img class="move-up" data-src="{{theme.link}}/assets/img/stol-hightech.jpg">
         </div>
         <div class="site-width">
             <div class="inner">
                 <div class="section-content">
-                    <h1 class="title">Vår siste nyhet er en klassiker. </h1>
-                    <div class="title-br"></div>
-                    <p>High-Tech er et tydelig bevis på at vi skynder oss langsomt. Det er vår siste, store nyhet, utviklet av Nisse Strinning og lansert på åttitallet. Stolen har allerede fått klassikerstatus i manges øyne. Vi synes nok heller den gir en smak av fremtiden. Eller hva synes du?</p>
-                    <div class="button-wrap">
-                        <a class="round-button border grey-border transparent-fill" href="{{site.link}}/vara-mobler/high-tech">
+                    <div class="js-animation-trigger" data-animate="high-tech"></div>
+                    <h1 class="title fade-in">Vår siste nyhet er en klassiker. </h1>
+                    <div class="title-br fade-in"></div>
+                    <p class="fade-in step-2">High-Tech er et tydelig bevis på at vi skynder oss langsomt. Det er vår siste, store nyhet, utviklet av Nisse Strinning og lansert på åttitallet. Stolen har allerede fått klassikerstatus i manges øyne. Vi synes nok heller den gir en smak av fremtiden. Eller hva synes du?</p>
+                        <a class="round-button border grey-border transparent-fill fade-in step-3" href="{{site.link}}/vara-mobler/high-tech">
                             Våre<br>møbler
                         </a>
                     </div>
@@ -106,13 +107,14 @@
         </div>
     </section>
 
-    <section id="historia" class="full-height has-background">
+    <section id="historia" class="full-height has-background" data-bg="{{theme.link}}/assets/img/historia.jpg">
         <div class="site-width">
             <div class="inner">
                 <div class="section-content on-background">
-                    <h1 class="title">En stols liv og levnet.</h1>
-                    <div class="title-br"></div>
-                    <p>Familien Lindqvist i Grythyttan begynte å produsere hestesko i 1895. Sønnen Artur fulgte senere i faren Karl sine fotspor, men Artur hadde visjoner som gikk utover det tradisjonelle smedarbeidet. Til Stockholmsutstillingen i 1930 tegnet og produserte Artur den nå klassiske stolen A2 i fjærstål.</p>
+                    <h1 class="title fade-in">En stols liv og levnet.</h1>
+                    <div class="title-br fade-in"></div>
+                    <p class="fade-in step-2">Familien Lindqvist i Grythyttan begynte å produsere hestesko i 1895. Sønnen Artur fulgte senere i faren Karl sine fotspor, men Artur hadde visjoner som gikk utover det tradisjonelle smedarbeidet. Til Stockholmsutstillingen i 1930 tegnet og produserte Artur den nå klassiske stolen A2 i fjærstål.</p>
+                    <div class="js-animation-trigger" data-animate="historia"></div>
                 </div>
             </div>    
         </div>
@@ -121,7 +123,7 @@
     {% include 'partials/produktserier.twig' %} 
 
     <section>
-        <div class="footer-background">
+        <div class="footer-background" data-bg="{{theme.link}}/assets/img/made.jpg">
             <div class="logo">
                 <picture>
                 <source type="image/svg+xml" srcset="{{theme.link}}/assets/img/grythyttan-logo.svg">
