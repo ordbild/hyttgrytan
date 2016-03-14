@@ -13,8 +13,7 @@ function enqueue_scripts_and_styles () {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_scripts_and_styles' );
 
-function get_stylesheets()
-{
+function get_stylesheets() {
 	$themeDir = get_template_directory_uri();
 	$assetsDir = $themeDir . '/assets';
 
@@ -30,7 +29,7 @@ function get_stylesheets()
     }
 
     $link_tags = array();
-    if (ENV == 'local') {
+    if (ENV == 'local' || !is_home()) {
         $link_attributes = 'rel="stylesheet"';
     } else {
         $link_attributes = 'rel="preload" as="style" onload="this.rel=\'stylesheet\'"';
@@ -44,8 +43,10 @@ function get_stylesheets()
         $preload = file_get_contents(get_stylesheet_directory().'/assets/js/min/cssrelpreload-min.js');
         $critical_css = file_get_contents(get_stylesheet_directory().'/assets/css/critical.css');
         $critical_css = str_replace('../img', get_template_directory_uri().'/assets/img', $critical_css);
-        $link_tags[] = '<style>'.$critical_css.'</style>';
-        $link_tags[] = '<script>'.$loadCSS.$preload.'</script>';
+        if (is_home()) {
+            $link_tags[] = '<style>'.$critical_css.'</style>';
+            $link_tags[] = '<script>'.$loadCSS.$preload.'</script>';
+        }
     }
 
 
