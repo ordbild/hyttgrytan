@@ -36,7 +36,7 @@ function get_stylesheets() {
         $link_attributes = 'rel="preload" as="style" onload="this.rel=\'stylesheet\'"';
     }
     foreach ($stylesheets as $stylesheet) {
-        $link_tags[] = '<link '.$link_attributes.' href="'.$stylesheet.'">'; 
+        $link_tags[] = '<link '.$link_attributes.' href="'.$stylesheet.'">' . "\n"; 
     }
 
     if (ENV != 'local') {
