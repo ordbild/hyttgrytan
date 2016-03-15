@@ -371,7 +371,7 @@ Sektioner
   .begin-animation .fade-in {
     opacity: 1;
     transform: translateY(0);
-    transition: transform .5s, opacity .5s; }
+    transition: transform .5s, opacity .2s; }
   .begin-animation .step-2 {
     transition-delay: .3s; }
   .begin-animation .step-3 {
@@ -722,6 +722,8 @@ Helpers
   #high-tech .section-content {
     width: 50%;
     float: left; }
+  #high-tech .button-wrap {
+    margin: 30px 0; }
 
   /* ==========================================================================
   Helpers

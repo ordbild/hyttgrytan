@@ -10747,16 +10747,27 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 353825,
+		"initialSize": 96072,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech_x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353825,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech_x2.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/img\/stol-hightech_x2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/js\/app.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/app.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/app-min.js",
@@ -10800,7 +10811,7 @@
 		},
 	"\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.bg.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.bg.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/jquery.lazyloadxt.bg-min.js",
@@ -10815,6 +10826,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/jquery.lazyloadxt-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.srcset.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.srcset.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/min\/jquery.lazyloadxt.srcset-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -18418,6 +18440,24 @@
 			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.js",
 			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.bg.js",
+			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/jquery.lazyloadxt.srcset.js",
+			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/grythyttan\/assets\/js\/app.js",
+			"position": 8,
 			"type": 0
 			}
 		]

@@ -68,6 +68,7 @@ function get_scripts()
         $scripts[] = $assetsDir . '/js/slick.min.js';
         $scripts[] = $assetsDir . '/js/jquery.lazyloadxt.js';
         $scripts[] = $assetsDir . '/js/jquery.lazyloadxt.bg.js';
+        $scripts[] = $assetsDir . '/js/jquery.lazyloadxt.srcset.js';
         $scripts[] = $assetsDir . '/js/app.js';
     } else {
         $scripts[] = $assetsDir . '/js/min/scripts-min.js';
