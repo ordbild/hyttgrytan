@@ -3,7 +3,7 @@
     
     $(document).ready(function(){
 
-        document.documentElement.className += 'loaded ';
+        document.getElementById('intro').className += ' begin-animation';
 
         FontFaceOnload('HelveticaNeueLTStd-Lt', {
             success: function () {
@@ -45,8 +45,9 @@
             }, 500);
         });
 
-        $('#lazyload-slider').on('lazyshow', function () {
-           console.log('lazyshow'); 
+        $('.js-animation-trigger').on('lazyshow', function () {
+            var id = this.getAttribute('data-animate');
+           document.getElementById(id).className += ' begin-animation';
         }).lazyLoadXT({visibleOnly: false});
 
     });

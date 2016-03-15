@@ -359,34 +359,26 @@ Sektioner
     right: 0; }
 
 /* Effekter */
-/*#intro {
-    h1,
-    .title-br,
-    p,
-    .section-content .round-button {
-        opacity: 0;
-        transform: translateY(50px);
-        transition: all .5s;
-    }
+@media (min-width: 1024px) {
+  .fade-in {
+    opacity: 0;
+    transform: translateY(10px); }
 
-}
-.loaded {
-    #intro {
-        h1,
-        .title-br,
-        p, 
-        .section-content .round-button {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        p {
-            transition-delay: .3s;
-        }
-        .section-content .round-button {
-            transition-delay: .6s;
-        }
-    }
-}*/
+  .move-up {
+    transform: translateY(50px);
+    transition: all 1.5s; }
+
+  .begin-animation .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform .5s, opacity .2s; }
+  .begin-animation .step-2 {
+    transition-delay: .3s; }
+  .begin-animation .step-3 {
+    transition-delay: .6s; }
+  .begin-animation .move-up {
+    opacity: 1;
+    transform: translateY(0); } }
 /*
  * Hantverk
  */
@@ -400,8 +392,7 @@ Sektioner
     display: block;
     font-size: 25px; }
   #hantverk .slide-1 {
-    font-size: 16px;
-    background-image: url("../img/slides/hantverk/hantverk-1.jpg"); }
+    font-size: 16px; }
     #hantverk .slide-1 .section-content {
       text-align: center; }
     #hantverk .slide-1 .round-button {
@@ -410,23 +401,15 @@ Sektioner
       width: 90px;
       height: 55px;
       font-size: 15px; }
-  #hantverk .slide-2 {
-    background-image: url("../img/slides/hantverk/hantverk-2.jpg"); }
-  #hantverk .slide-3 {
-    background-image: url("../img/slides/hantverk/hantverk-3.jpg"); }
-  #hantverk .slide-4 {
-    background-image: url("../img/slides/hantverk/hantverk-4.jpg"); }
-  #hantverk .slide-5 {
-    background-image: url("../img/slides/hantverk/hantverk-5.jpg"); }
 
 #high-tech .section-image {
   width: 100%; }
 #high-tech .button-wrap {
   margin: 30px auto;
-  width: 90px; }
+  width: 94px; }
 
 #historia {
-  background-image: url("../img/historia.jpg"); }
+  /* background-image: url('../img/historia.jpg');*/ }
 
 #produktserier .inner-column:hover h2 {
   color: #006539; }
@@ -524,7 +507,6 @@ Footer
   min-height: 400px;
   position: relative;
   top: 130px;
-  background-image: url("../img/made.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -653,16 +635,6 @@ Helpers
     margin-top: 105px; }
 
   /*
-   * High tech
-   */
-  #high-tech .section-content {
-    margin-top: 130px;
-    margin-left: 52.564102564103%;
-    width: 48.717948717949%; }
-  #high-tech .button-wrap {
-    margin: 30px 0; }
-
-  /*
    * Historia
    */
   #historia .section-content {
@@ -746,9 +718,12 @@ Helpers
       margin-left: 0;
       margin-right: 0; }
 
-  #high-tech .section-image {
+  #high-tech .section-image,
+  #high-tech .section-content {
     width: 50%;
     float: left; }
+  #high-tech .button-wrap {
+    margin: 30px 0; }
 
   /* ==========================================================================
   Helpers

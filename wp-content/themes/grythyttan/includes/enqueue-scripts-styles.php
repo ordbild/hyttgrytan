@@ -36,7 +36,7 @@ function get_stylesheets() {
         $link_attributes = 'rel="preload" as="style" onload="this.rel=\'stylesheet\'"';
     }
     foreach ($stylesheets as $stylesheet) {
-        $link_tags[] = '<link '.$link_attributes.' href="'.$stylesheet.'">'; 
+        $link_tags[] = '<link '.$link_attributes.' href="'.$stylesheet.'">' . "\n"; 
     }
 
     if (ENV != 'local') {
@@ -67,6 +67,8 @@ function get_scripts()
         $scripts[] = $assetsDir . '/js/fontfaceonload.js';
         $scripts[] = $assetsDir . '/js/slick.min.js';
         $scripts[] = $assetsDir . '/js/jquery.lazyloadxt.js';
+        $scripts[] = $assetsDir . '/js/jquery.lazyloadxt.bg.js';
+        $scripts[] = $assetsDir . '/js/jquery.lazyloadxt.srcset.js';
         $scripts[] = $assetsDir . '/js/app.js';
     } else {
         $scripts[] = $assetsDir . '/js/min/scripts-min.js';
