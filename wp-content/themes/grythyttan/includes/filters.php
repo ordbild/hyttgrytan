@@ -13,7 +13,7 @@ function add_menu_to_timber( $context ) {
         ),
         array(
             'name' => 'vara-mobler',
-            'link' => $site_url . '/vara-mobler',
+            'link' => $site_url . '/no/vara-mobler',
             'classes' => 'furniture-series',
             'link_text' => 'Våre møbler',
             'target' => '_self'
