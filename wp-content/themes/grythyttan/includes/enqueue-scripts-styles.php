@@ -30,11 +30,11 @@ function get_stylesheets() {
     }
 
     $link_tags = array();
-    if (ENV == 'local' || !is_home()) {
+    /*if (ENV == 'local' || !is_home()) {
         $link_attributes = 'rel="stylesheet"';
-    } else {
+    } else {*/
         $link_attributes = 'rel="preload" as="style" onload="this.rel=\'stylesheet\'"';
-    }
+    #}
     foreach ($stylesheets as $stylesheet) {
         $link_tags[] = '<link '.$link_attributes.' href="'.$stylesheet.'">' . "\n"; 
     }
@@ -44,10 +44,10 @@ function get_stylesheets() {
         $preload = file_get_contents(get_stylesheet_directory().'/assets/js/min/cssrelpreload-min.js');
         $critical_css = file_get_contents(get_stylesheet_directory().'/assets/css/critical.css');
         $critical_css = str_replace('../img', get_template_directory_uri().'/assets/img', $critical_css);
-        if (is_home()) {
+        #if (is_home() ) {
             $link_tags[] = '<style>'.$critical_css.'</style>';
             $link_tags[] = '<script>'.$loadCSS.$preload.'</script>';
-        }
+        #}
     }
 
 
